@@ -1,0 +1,22 @@
+import type { Metadata } from "next";
+import { ToolsPageContent } from "@/components/ToolsPageContent";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "AI Tools Directory — Grow10X",
+  description:
+    "Curated AI tools every builder needs. Search and filter by Build, Design, Research, Productivity, and No-Code.",
+};
+
+export default function ToolsPage() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <ToolsPageContent />
+      </main>
+      <Footer />
+    </>
+  );
+}

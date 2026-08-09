@@ -1,26 +1,98 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-black: #000000;
+  --color-green: #00e676;
+  --color-white: #ffffff;
+  --color-card: #0f0f0f;
+  --color-border: #1e1e1e;
+  --color-muted: #a3a3a3;
+  --color-coral: #ff5b36;
+  --color-yellow: #f5e03b;
+  --color-dark: #060606;
+  --color-gray: #4b5563;
+  --color-footer-border: #235038;
+  --color-light-green: #cafcdb;
+  --color-accent-green: #6bff8f;
+  --color-muted-green: #86b698;
+  --color-orange: #ff8c00;
+  --color-red: #dc2626;
+  --color-card-alt: #161616;
+  --color-green-10: rgba(0, 230, 118, 0.1);
+  --color-green-20: rgba(0, 230, 118, 0.2);
+  --color-yellow-20: rgba(245, 224, 59, 0.2);
+  --color-coral-20: rgba(255, 91, 54, 0.2);
+  --color-overlay: rgba(0, 0, 0, 0.1);
+  --color-navbar: rgba(0, 18, 7, 0.8);
+  --color-page-dark: #0a0a0a;
+  --color-accent-emerald: #22c55e;
+  --color-card-dark: #141414;
+  --color-border-dark: #252525;
+  --color-zinc-muted: #a1a1aa;
+  --color-hero-green-start: #1cb94a;
+  --color-hero-green-end: #006e26;
+  --color-cta-band: #0d1f12;
+  --color-tools-footer: #00180b;
+  --color-badge-yellow: #eab308;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-black: var(--color-black);
+  --color-green: var(--color-green);
+  --color-white: var(--color-white);
+  --color-card: var(--color-card);
+  --color-border: var(--color-border);
+  --color-muted: var(--color-muted);
+  --color-coral: var(--color-coral);
+  --color-yellow: var(--color-yellow);
+  --color-dark: var(--color-dark);
+  --color-gray: var(--color-gray);
+  --color-footer-border: var(--color-footer-border);
+  --color-light-green: var(--color-light-green);
+  --color-accent-green: var(--color-accent-green);
+  --color-muted-green: var(--color-muted-green);
+  --color-orange: var(--color-orange);
+  --color-red: var(--color-red);
+  --color-card-alt: var(--color-card-alt);
+  --color-green-10: var(--color-green-10);
+  --color-green-20: var(--color-green-20);
+  --color-yellow-20: var(--color-yellow-20);
+  --color-coral-20: var(--color-coral-20);
+  --color-overlay: var(--color-overlay);
+  --color-navbar: var(--color-navbar);
+  --color-page-dark: var(--color-page-dark);
+  --color-accent-emerald: var(--color-accent-emerald);
+  --color-card-dark: var(--color-card-dark);
+  --color-border-dark: var(--color-border-dark);
+  --color-zinc-muted: var(--color-zinc-muted);
+  --color-hero-green-start: var(--color-hero-green-start);
+  --color-hero-green-end: var(--color-hero-green-end);
+  --color-cta-band: var(--color-cta-band);
+  --color-tools-footer: var(--color-tools-footer);
+  --color-badge-yellow: var(--color-badge-yellow);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-heading: var(--font-space-grotesk);
+  --font-body: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+
+  --shadow-card: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadow-sm: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  --shadow-play: 0px 0px 30px 0px rgba(0, 230, 118, 0.3);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+@keyframes hero-line-in {
+  from {
+    opacity: 0;
+    transform: translateY(2.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -1,0 +1,22 @@
+import type { Metadata } from "next";
+import { MissionPageContent } from "@/components/MissionPageContent";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Mission — Grow10X",
+  description:
+    "We exist to make AI building accessible to every Indian. Train 1 million builders to launch AI products by 2027.",
+};
+
+export default function MissionPage() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <MissionPageContent />
+      </main>
+      <Footer />
+    </>
+  );
+}
