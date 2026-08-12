@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Notion N-cube icon in white for dark backgrounds -->
+  <!-- Cube outline - front face -->
+  <rect x="12" y="20" width="62" height="65" rx="8" fill="white" stroke="white" stroke-width="2"/>
+  <!-- Cube top highlight -->
+  <path d="M12 28 L28 14 L90 14 L74 28 Z" fill="rgba(255,255,255,0.7)" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Cube right side -->
+  <path d="M74 28 L90 14 L90 79 L74 93 Z" fill="rgba(255,255,255,0.4)" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- N letter in black on white face -->
+  <text x="43" y="73" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="900" text-anchor="middle" fill="#111111">N</text>
+</svg>

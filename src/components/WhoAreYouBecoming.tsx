@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 export function WhoAreYouBecoming() {
   return (
-    <section className="bg-white py-24">
+    <section id="about" className="bg-white py-24">
       <Container className="flex flex-col gap-16">
         <SectionHeading dark className="text-center">
           Who Are You <span className="text-green">Becoming?</span>

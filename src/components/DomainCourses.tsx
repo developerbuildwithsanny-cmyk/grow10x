@@ -1,7 +1,52 @@
 import { ArrowRightIcon, Container } from "@/components/ui";
 import { domains } from "@/lib/data";
+import {
+  Stethoscope,
+  Briefcase,
+  Palette,
+  GraduationCap,
+  Scale,
+  Megaphone,
+  Code2,
+  Sprout,
+  Newspaper,
+  UserPlus,
+  Truck,
+  Laptop,
+} from "lucide-react";
 
 export function DomainCourses() {
+  const getDomainIcon = (domain: string) => {
+    switch (domain) {
+      case "Healthcare":
+        return <Stethoscope className="h-5 w-5 text-green" />;
+      case "Business/Finance":
+        return <Briefcase className="h-5 w-5 text-green" />;
+      case "Design/Creative":
+        return <Palette className="h-5 w-5 text-green" />;
+      case "Education/Research":
+        return <GraduationCap className="h-5 w-5 text-green" />;
+      case "Law/Compliance":
+        return <Scale className="h-5 w-5 text-green" />;
+      case "Marketing/Sales":
+        return <Megaphone className="h-5 w-5 text-green" />;
+      case "Engineering/Dev":
+        return <Code2 className="h-5 w-5 text-green" />;
+      case "Agriculture":
+        return <Sprout className="h-5 w-5 text-green" />;
+      case "Media/Journalism":
+        return <Newspaper className="h-5 w-5 text-green" />;
+      case "HR/Recruitment":
+        return <UserPlus className="h-5 w-5 text-green" />;
+      case "Logistics":
+        return <Truck className="h-5 w-5 text-green" />;
+      case "Freelancers":
+        return <Laptop className="h-5 w-5 text-green" />;
+      default:
+        return <Laptop className="h-5 w-5 text-green" />;
+    }
+  };
+
   return (
     <section className="bg-dark py-24">
       <Container className="flex flex-col gap-16">
@@ -22,7 +67,7 @@ export function DomainCourses() {
             >
               <div className="flex items-center gap-4">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-green-10">
-                  <span className="text-sm text-green">●</span>
+                  {getDomainIcon(domain)}
                 </div>
                 <span className="text-base font-bold text-white">
                   {domain}

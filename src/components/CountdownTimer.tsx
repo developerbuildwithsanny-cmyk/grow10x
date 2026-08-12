@@ -9,8 +9,10 @@ export function CountdownTimer() {
     minutes: 59,
     seconds: 59,
   });
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
     const interval = setInterval(() => {
       setTime((prev) => {
         let { days, hours, minutes, seconds } = prev;
@@ -37,6 +39,14 @@ export function CountdownTimer() {
   }, []);
 
   const pad = (n: number) => String(n).padStart(2, "0");
+
+  if (!mounted) {
+    return (
+      <span>
+        NEXT BATCH STARTS IN: 06d : 23h : 59m : 59s
+      </span>
+    );
+  }
 
   return (
     <span>

@@ -47,8 +47,11 @@ export function Roadmap() {
                       {week.week}
                     </span>
                   </div>
-                  <p className="font-heading text-lg font-bold leading-7 text-white">
+                  <p className="mb-3 font-heading text-lg font-bold leading-7 text-white">
                     {week.title}
+                  </p>
+                  <p className="text-sm leading-relaxed text-muted">
+                    {week.description}
                   </p>
                 </div>
               );

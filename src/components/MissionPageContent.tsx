@@ -19,11 +19,11 @@ export function MissionPageContent() {
             🌱 Why We Exist
           </span>
           <h1 className="max-w-4xl font-heading text-[40px] font-extrabold leading-tight tracking-[-0.025em] text-white sm:text-[56px] sm:leading-[1.1] lg:text-[72px] lg:leading-[72px]">
-            We Exist to Make AI
+            We Exist to Make <span className="text-green">AI Building</span>
             <br />
-            Building Accessible to
+            Accessible to
             <br />
-            Every Indian.
+            <span className="text-green">Every Indian.</span>
           </h1>
           <p className="max-w-2xl text-xl font-medium leading-8 text-zinc-muted">
             Not just the elite coders. Not just the startup founders. Everyone.
@@ -35,9 +35,7 @@ export function MissionPageContent() {
         <div className="relative overflow-hidden rounded-2xl border border-border-dark bg-card-dark p-8 md:p-12 lg:mx-auto lg:max-w-5xl">
           <div className="absolute bottom-0 left-0 top-0 w-2 bg-accent-emerald" />
           <blockquote className="mb-8 pl-4 font-heading text-[28px] font-bold italic leading-10 text-white md:text-4xl md:leading-10">
-            &ldquo;Our mission is to train 1 million Indians to build and launch
-            AI products by 2027 — creating a generation of builders who
-            don&apos;t just consume technology, but create it.&rdquo;
+            &ldquo;Our mission is to train <span className="text-green">1 million Indians</span> to <span className="text-green">build and launch AI products</span> by 2027 — creating a generation of builders who don&apos;t just consume technology, but create it.&rdquo;
           </blockquote>
           <p className="border-l-4 border-transparent pl-8 text-lg leading-[29px] text-zinc-muted">
             The AI revolution shouldn&apos;t be limited to Silicon Valley. By
@@ -52,7 +50,7 @@ export function MissionPageContent() {
         <Container>
           <div className="mb-16 text-center">
             <h2 className="font-heading text-[40px] font-extrabold leading-[48px] text-white md:text-5xl">
-              The Three Pillars We Stand On
+              The Three <span className="text-green">Pillars</span> We Stand On
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg leading-7 text-zinc-muted">
               The foundational principles that guide every program, tool, and
@@ -84,12 +82,12 @@ export function MissionPageContent() {
       <section className="py-24">
         <Container className="max-w-4xl">
           <h2 className="mb-10 text-center font-heading text-[30px] font-extrabold leading-9 text-white">
-            A Note from Our Founder
+            A Note from Our <span className="text-green">Founder</span>
           </h2>
           <div className="rounded-2xl border border-border-dark bg-card-dark p-8 shadow-[0_0_40px_rgba(34,197,94,0.05)] md:p-12">
             <div className="mb-8 flex items-center gap-6 border-b border-border-dark pb-8">
               <div className="flex h-[60px] w-[60px] items-center justify-center rounded-full border-2 border-accent-emerald/30 bg-accent-emerald/10 font-heading text-xl font-bold text-accent-emerald">
-                SR
+                SK
               </div>
               <div>
                 <p className="text-xl font-bold text-white">{founderNote.name}</p>
@@ -115,7 +113,7 @@ export function MissionPageContent() {
       <section className="border-t border-border-dark py-24">
         <Container className="flex flex-col items-center text-center">
           <h2 className="font-heading text-[40px] font-extrabold leading-[48px] text-white md:text-5xl">
-            Ready to Be Part of the Mission?
+            Ready to Be Part of the <span className="text-green">Mission?</span>
           </h2>
           <p className="mt-4 max-w-xl text-lg text-zinc-muted">
             Join 12,000+ builders who are already shaping India&apos;s AI future.

@@ -1,0 +1,9 @@
+<svg viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Framer F-shape logo in white for dark backgrounds -->
+  <!-- Top section: left block + inward triangle cut -->
+  <polygon points="18,12 70,12 70,40 44,40" fill="white"/>
+  <!-- Upper-right triangle (the cut-in triangle, darker) -->
+  <polygon points="70,12 88,12 70,40" fill="rgba(255,255,255,0.35)"/>
+  <!-- Bottom section: trapezoid going down-right -->
+  <polygon points="18,40 44,40 70,68 18,68" fill="white"/>
+</svg>

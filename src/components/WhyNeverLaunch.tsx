@@ -1,7 +1,21 @@
 import { Container, SectionHeading } from "@/components/ui";
 import { painPoints } from "@/lib/data";
+import { PlayCircle, Cpu, UserMinus } from "lucide-react";
 
 export function WhyNeverLaunch() {
+  const getIcon = (title: string) => {
+    switch (title) {
+      case "Tutorial Loop":
+        return <PlayCircle className="h-6 w-6 text-white" />;
+      case "Tool Overload":
+        return <Cpu className="h-6 w-6 text-white" />;
+      case "Isolation":
+        return <UserMinus className="h-6 w-6 text-white" />;
+      default:
+        return <PlayCircle className="h-6 w-6 text-white" />;
+    }
+  };
+
   return (
     <section className="bg-black py-24">
       <Container className="flex flex-col gap-16">
@@ -16,7 +30,7 @@ export function WhyNeverLaunch() {
               className="rounded-xl border border-border bg-card px-8 pb-14 pt-8"
             >
               <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-coral">
-                <span className="text-lg text-white">!</span>
+                {getIcon(point.title)}
               </div>
               <h3 className="mb-3 font-heading text-xl font-bold leading-7 text-white">
                 {point.title}

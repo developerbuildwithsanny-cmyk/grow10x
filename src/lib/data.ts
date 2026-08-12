@@ -1,9 +1,9 @@
 export const navLinks = [
   { label: "HOME", href: "/" },
   { label: "PROGRAMS", href: "/#programs", hasMegaMenu: true },
-  { label: "ABOUT", href: "/#" },
+  { label: "ABOUT", href: "/#about" },
   { label: "AI TOOLS", href: "/tools" },
-  { label: "BLOG", href: "/#journal" },
+  { label: "BLOG", href: "/blog" },
   { label: "MISSION", href: "/mission" },
 ];
 
@@ -173,10 +173,30 @@ export const unlockItems = [
 ];
 
 export const roadmapWeeks = [
-  { week: "W1", title: "Ideation & Setup", accent: "green" },
-  { week: "W2", title: "Core Build", accent: "coral" },
-  { week: "W3", title: "Refinement & Polish", accent: "yellow" },
-  { week: "W4", title: "Launch & Scale", accent: "green" },
+  {
+    week: "W1",
+    title: "Ideation & Setup",
+    accent: "green",
+    description: "Validate your niche, define scope, set up Next.js/FastAPI, and integrate AI model endpoints.",
+  },
+  {
+    week: "W2",
+    title: "Core Build",
+    accent: "coral",
+    description: "Build logic, implement vector databases (Pinecone/pgvector), and set up the AI query loop.",
+  },
+  {
+    week: "W3",
+    title: "Refinement & Polish",
+    accent: "yellow",
+    description: "Add auth, integrate Stripe payments, style responsive designs, and polish edge cases.",
+  },
+  {
+    week: "W4",
+    title: "Launch & Scale",
+    accent: "green",
+    description: "Deploy to Vercel/Railway, optimize SEO, configure analytics, and launch on Product Hunt.",
+  },
 ];
 
 export const testimonials = [
@@ -250,6 +270,7 @@ export const journalPosts = [
     title: "Mastering System Prompts for Production LLMs",
     excerpt:
       "Learn the key strategies for writing robust system prompts that prevent hallucinations and keep your AI apps on track.",
+    image: "/images/blog-system-prompts.png",
   },
   {
     category: "Case Study",
@@ -258,6 +279,7 @@ export const journalPosts = [
     title: "Building a Custom AI Chatbot in 48 Hours",
     excerpt:
       "A step-by-step walkthrough of how one of our students went from idea to a fully deployed RAG chatbot over a single weekend.",
+    image: "/images/blog-ai-chatbot.png",
   },
   {
     category: "Business",
@@ -266,6 +288,7 @@ export const journalPosts = [
     title: "Choosing the Right Pricing Model for AI Products",
     excerpt:
       "Subscription vs. Pay-per-use? We break down the unit economics of popular LLM APIs and how to price your SaaS accordingly.",
+    image: "/images/blog-pricing-model.png",
   },
 ];
 
@@ -277,16 +300,46 @@ export const statsBar = [
 ];
 
 export const faqItems = [
-  "Do I need prior coding experience?",
-  "How much time do I need to commit?",
-  "Will I learn how to build RAG applications?",
-  "Do I need to pay for AI API costs?",
-  "Is there a community I can join?",
-  "What if I fall behind?",
-  "Can I get a refund if I don't like it?",
-  "Do you provide templates or starter code?",
-  "Are the live sessions recorded?",
-  "Will you teach me how to deploy my app?",
+  {
+    question: "Do I need prior coding experience?",
+    answer: "While basic JavaScript/Python knowledge helps, we offer a dedicated 'Non-Tech Founder' track that teaches you to build using no-code platforms (like Bubble/FlutterFlow) combined with AI APIs.",
+  },
+  {
+    question: "How much time do I need to commit?",
+    answer: "We recommend committing 8–10 hours per week. This includes watching the masterclasses, attending live Q&As, and dedicating time to building your weekly milestone projects.",
+  },
+  {
+    question: "Will I learn how to build RAG applications?",
+    answer: "Yes! Retrieval-Augmented Generation (RAG) is a core part of our 'AI in Hands' program. You will learn to use vector databases like Pinecone/pgvector to build chatbots that query custom data.",
+  },
+  {
+    question: "Do I need to pay for AI API costs?",
+    answer: "No. We provide free starter API credits for OpenAI, Anthropic, and Cohere during the bootcamp so you can focus 100% on learning and building without financial friction.",
+  },
+  {
+    question: "Is there a community I can join?",
+    answer: "Absolutely! You'll get lifetime access to our private Discord community of 12,000+ builders, where you can find co-founders, get code feedback, and share launch updates.",
+  },
+  {
+    question: "What if I fall behind?",
+    answer: "Don't worry. All live sessions are recorded and you have lifetime access to the curriculum. You can go at your own pace and submit your projects for review whenever you're ready.",
+  },
+  {
+    question: "Can I get a refund if I don't like it?",
+    answer: "We offer a 100% money-back guarantee within the first 14 days of the cohort. If you feel the program isn't the right fit for you, simply email us and we'll issue a full refund.",
+  },
+  {
+    question: "Do you provide templates or starter code?",
+    answer: "Yes, we provide 50+ production-ready boilerplate templates for Next.js, FastAPI, and Bubble, so you can skip the setup hassle and start coding the core logic immediately.",
+  },
+  {
+    question: "Are the live sessions recorded?",
+    answer: "Yes, every live Q&A, guest lecture, and project review session is recorded and uploaded to the student portal within 2 hours of ending.",
+  },
+  {
+    question: "Will you teach me how to deploy my app?",
+    answer: "Definitely. We cover production deployment pipelines to Vercel, Railway, and AWS, along with setting up domain names, SSL certificates, and basic analytics tracking.",
+  },
 ];
 
 export const footerLinks = {
@@ -317,8 +370,8 @@ export const missionPillars = [
 ];
 
 export const founderNote = {
-  name: "Siddharth Rao",
-  role: "Founder, 1M AI Builder",
+  name: "Sanny Kumar",
+  role: "Founder, Grow10X",
   paragraphs: [
     "When I started my journey in tech, the barriers to entry were massive. You needed a specific degree, access to capital, and connections to the right hubs. AI has completely shattered that paradigm. Today, the only barrier is intent.",
     "However, intent alone isn't enough without direction. I saw too many brilliant minds getting lost in the noise of tutorials, theoretical papers, and overwhelming frameworks. They were consuming AI, but not building with it. That realization birthed 1M AI Builder.",

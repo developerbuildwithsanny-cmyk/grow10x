@@ -36,6 +36,32 @@ const categoryStyles: Record<
   },
 };
 
+function ToolIcon({ name }: { name: string }) {
+  const slugMap: Record<string, string> = {
+    "ChatGPT": "chatgpt",
+    "Claude": "claude",
+    "Cursor": "cursor",
+    "Bolt.new": "bolt",
+    "Lovable": "lovable",
+    "Make": "make",
+    "Perplexity": "perplexity",
+    "Midjourney": "midjourney",
+    "n8n": "n8n",
+    "Notion AI": "notion",
+    "Framer": "framer",
+    "ElevenLabs": "elevenlabs",
+  };
+
+  const slug = slugMap[name] || "chatgpt";
+  return (
+    <img
+      src={`/images/tools/${slug}.svg`}
+      alt={`${name} logo`}
+      className="h-6 w-6 object-contain"
+    />
+  );
+}
+
 export function ToolsPageContent() {
   const [activeCategory, setActiveCategory] = useState<ToolCategory>("All");
   const [searchQuery, setSearchQuery] = useState("");
@@ -62,7 +88,7 @@ export function ToolsPageContent() {
             AI Tools Directory
           </span>
           <h1 className="font-heading text-[40px] font-extrabold leading-tight tracking-[-0.025em] text-white sm:text-[52px] sm:leading-[1.1] lg:text-[60px] lg:leading-[60px]">
-            The Tools Every AI Builder
+            The <span className="text-accent-emerald">Tools</span> Every <span className="text-accent-emerald">AI Builder</span>
             <br />
             Needs
           </h1>
@@ -123,10 +149,9 @@ export function ToolsPageContent() {
               >
                 <div className="mb-4 flex items-start justify-between">
                   <div
-                    className="flex h-10 w-10 items-center justify-center rounded-lg font-heading text-sm font-bold text-white"
-                    style={{ backgroundColor: tool.iconBg }}
+                    className="flex h-10 w-10 items-center justify-center rounded-lg bg-black/40 border border-border-dark p-2"
                   >
-                    {tool.name.slice(0, 2).toUpperCase()}
+                    <ToolIcon name={tool.name} />
                   </div>
                   <span
                     className={cn(

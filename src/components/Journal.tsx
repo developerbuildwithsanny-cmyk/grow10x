@@ -22,8 +22,13 @@ export function Journal() {
               key={post.title}
               className="flex flex-col overflow-hidden rounded-xl border border-border bg-card"
             >
-              <div className="flex h-[180px] items-center justify-center bg-card-alt">
-                <span className="text-4xl text-border">📄</span>
+              <div className="relative h-[180px] w-full overflow-hidden bg-card-alt">
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                  loading="lazy"
+                />
               </div>
               <div className="flex flex-1 flex-col p-6">
                 <div className="mb-3 flex items-center justify-between">
