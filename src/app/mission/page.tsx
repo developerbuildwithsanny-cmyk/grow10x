@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Mission — Grow10X",
+  title: "Mission — 10xAISchool",
   description:
     "We exist to make AI building accessible to every Indian. Train 1 million builders to launch AI products by 2027.",
 };

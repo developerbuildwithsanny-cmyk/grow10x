@@ -53,7 +53,7 @@ export function Footer() {
                 href="/"
                 className="font-heading text-2xl font-black leading-7 tracking-[-0.05em] text-light-green w-fit"
               >
-                Grow10X
+                10xAISchool
               </Link>
               <p className="max-w-xs text-sm leading-6 text-muted">
                 Accelerating human intelligence through practical AI application development, startup incubation, and expert mentorship.
@@ -62,13 +62,13 @@ export function Footer() {
               {/* Contact Info */}
               <div className="flex flex-col gap-3">
                 <a
-                  href="mailto:hello@grow10x.in"
+                  href="mailto:hello@10xaischool.in"
                   className="flex items-center gap-3 text-sm text-muted hover:text-accent-emerald transition-colors group"
                 >
                   <div className="flex h-8 w-8 items-center justify-center rounded-lg border border-white/10 bg-white/5 group-hover:border-accent-emerald/40 group-hover:bg-accent-emerald/5 transition-all">
                     <Mail className="h-3.5 w-3.5" />
                   </div>
-                  hello@grow10x.in
+                  hello@10xaischool.in
                 </a>
                 <a
                   href="tel:+918000000000"
@@ -253,7 +253,7 @@ export function Footer() {
           {/* Footer Bottom */}
           <div className="mt-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <p className="text-xs text-muted">
-              © 2026 Grow10X. All rights reserved. Accelerating human intelligence through AI.
+              © 2026 10xAISchool. All rights reserved. Accelerating human intelligence through AI.
             </p>
             <div className="flex items-center gap-6">
               {footerLinks.legal.map((link) => (

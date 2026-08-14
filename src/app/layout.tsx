@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Grow10X — Learn AI. Launch Fast. Earn Faster.",
+  title: "10xAISchool — Learn AI. Launch Fast. Earn Faster.",
   description:
     "Master practical AI development. Build real-world AI applications and launch your AI startup.",
 };

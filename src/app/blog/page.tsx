@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Blog & Journal — Grow10X",
+  title: "Blog & Journal — 10xAISchool",
   description:
     "Explore guides, tutorials, and case studies about building, launching, and scaling AI products from real developers.",
 };

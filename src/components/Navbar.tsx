@@ -72,7 +72,7 @@ export function Navbar() {
               href="/"
               className="font-heading text-2xl font-black leading-8 tracking-[-0.05em] text-light-green"
             >
-              Grow10X
+              10xAISchool
             </Link>
             <nav className="hidden items-center gap-8 lg:flex">
               {navLinks.map((link) =>
