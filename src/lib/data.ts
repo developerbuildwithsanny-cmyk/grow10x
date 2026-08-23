@@ -2,6 +2,8 @@ export const navLinks = [
   { label: "HOME", href: "/" },
   { label: "PROGRAMS", href: "/#programs", hasMegaMenu: true },
   { label: "ABOUT", href: "/#about" },
+  { label: "AI SCHOOL", href: "/learning" },
+  { label: "INNOVATIONS", href: "/innovations" },
   { label: "AI TOOLS", href: "/tools" },
   { label: "BLOG", href: "/blog" },
   { label: "MISSION", href: "/mission" },
@@ -491,4 +493,258 @@ export const aiTools = [
     iconBg: "#1A2E1F",
     url: "https://elevenlabs.io",
   },
+];
+
+export const curriculumWeeks = [
+  {
+    week: "Week 1",
+    title: "LLM Fundamentals & RAG",
+    description: "Learn how Large Language Models work, understand tokens and context windows, and build a basic Retrieval-Augmented Generation (RAG) system using vector databases.",
+    topics: ["LLM Architectures", "Prompt Engineering", "Vector Embeddings", "Simple RAG Pipeline"],
+    icon: "🎓"
+  },
+  {
+    week: "Week 2",
+    title: "APIs, Tools & Memory",
+    description: "Connect LLMs to external systems. Learn tool calling, function calling, API integration, and how to manage conversational state and short/long-term memory.",
+    topics: ["OpenAI & Anthropic APIs", "Function Calling", "Session State Management", "Vector DB Memory"],
+    icon: "🔌"
+  },
+  {
+    week: "Week 3",
+    title: "Advanced RAG & Multi-modal",
+    description: "Scale your RAG systems to handle complex document layouts, slide decks, and images. Implement hybrid search, rerankers, and multi-modal models.",
+    topics: ["Query Translation", "Reranking Models", "Image Processing with GPT-4V", "Document Chunking Strategies"],
+    icon: "🔍"
+  },
+  {
+    week: "Week 4",
+    title: "Automation & Workflows",
+    description: "Design deterministic and dynamic workflows using automation frameworks. Learn how to map business processes to sequential LLM chains.",
+    topics: ["n8n & Make.com", "LangChain Expression Language (LCEL)", "Workflow orchestration", "Structured outputs"],
+    icon: "⚙️"
+  },
+  {
+    week: "Week 5",
+    title: "Security & API Systems",
+    description: "Secure your AI applications against prompt injection, data leakage, and unauthorized access. Build production-grade backends with rate limits and caching.",
+    topics: ["Prompt Injection Defense", "API Key Management", "semantic caching", "FastAPI middleware"],
+    icon: "🛡️"
+  },
+  {
+    week: "Week 6",
+    title: "Agentic AI Basics",
+    description: "Introduction to autonomous agents. Understand the ReAct (Reason + Action) loop, system planning, and how to give agents agency over their tools.",
+    topics: ["ReAct Framework", "Autonomous Tool Selection", "Loop Detection", "Stateful Agent Design"],
+    icon: "🤖"
+  },
+  {
+    week: "Week 7",
+    title: "Agent Frameworks",
+    description: "Dive deep into modern frameworks designed for building complex agents. Master graph-based state machines and custom agent architectures.",
+    topics: ["LangGraph basics", "State management in graphs", "CrewAI framework", "Agent cooperation"],
+    icon: "🕸️"
+  },
+  {
+    week: "Week 8",
+    title: "Multi-Agent Systems",
+    description: "Build groups of collaborative agents that divide and conquer tasks. Design specialist agents, supervisor agents, and structured communication protocols.",
+    topics: ["Supervisor Agent Pattern", "Message Passing", "Hierarchical Agent Crews", "Conflict Resolution"],
+    icon: "👥"
+  },
+  {
+    week: "Week 9",
+    title: "Long-running Agents",
+    description: "Build asynchronous agents that run for hours or days, handle human-in-the-loop approvals, resume from checkpoints, and manage background tasks.",
+    topics: ["Human-in-the-loop (HITL)", "Persistent checkpoints", "Pub/Sub background workers", "Interrupt mechanisms"],
+    icon: "⏳"
+  },
+  {
+    week: "Week 10",
+    title: "Cloud Deployment",
+    description: "Deploy your backend APIs and AI agents to reliable cloud infrastructure. Set up CI/CD, auto-scaling, and monitoring/evaluation systems.",
+    topics: ["Vercel & Railway deployment", "LangSmith for debugging", "API monitoring", "Docker containerization"],
+    icon: "☁️"
+  },
+  {
+    week: "Week 11",
+    title: "Capstone Project",
+    description: "Work in a team to build, secure, and deploy a production-ready AI product solving a real industry problem. Receive 1-on-1 code reviews.",
+    topics: ["Product Scoping", "Architecture Design", "Sprint Planning", "Collaborative development"],
+    icon: "🚀"
+  },
+  {
+    week: "Week 12",
+    title: "Final Demo & Certification",
+    description: "Showcase your team's capstone project live to hiring partners and industry experts. Receive your AI Builder certification and placement support.",
+    topics: ["Demo Day pitch", "Technical Q&A", "Career coaching", "Hiring matching"],
+    icon: "🏆"
+  }
+];
+
+export interface StudentProject {
+  name: string;
+  category: "AI Agents" | "RAG & LLMs" | "No-Code AI" | "Full Stack";
+  description: string;
+  students: string[];
+  techStack: string[];
+  githubUrl?: string;
+  liveUrl?: string;
+  imageUrl?: string;
+}
+
+export const innovationsProjects: StudentProject[] = [
+  {
+    name: "SkillSwap AI",
+    category: "AI Agents",
+    description: "AI-powered peer-to-peer skill exchange platform with dynamic match recommendations, automated session scheduling, and instant notes summarizing.",
+    students: ["Priya Sharma", "Arjun Mehta"],
+    techStack: ["Next.js", "FastAPI", "OpenAI API", "Pinecone", "Tailwind CSS"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "VibeCast",
+    category: "RAG & LLMs",
+    description: "Smart music player and stream catalog generating playlists based on mood descriptors and contextual history using vector database embeddings.",
+    students: ["Rahul Verma"],
+    techStack: ["Next.js", "Pinecone", "Claude 3.5 Sonnet", "OpenAI Embeddings", "Supabase"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "DocuSign AI",
+    category: "AI Agents",
+    description: "Intelligent document signing portal that parses terms, highlights potential risks, answers user queries about clauses, and generates summaries.",
+    students: ["Sneha Patel"],
+    techStack: ["Next.js", "Python", "LangChain", "Llama 3", "FastAPI"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "TaskFlow AI",
+    category: "AI Agents",
+    description: "Kanban project board featuring an AI assistant that auto-allocates tasks, refines backlog descriptions, and predicts project delay risks.",
+    students: ["Dev Malhotra"],
+    techStack: ["React", "Node.js", "Express", "LangChain", "PostgreSQL"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "ChefPalette AI",
+    category: "No-Code AI",
+    description: "No-code cooking companion that scans ingredients from photos, detects items, and customizes dietary-safe step-by-step recipes.",
+    students: ["Saritha K."],
+    techStack: ["FlutterFlow", "OpenAI Vision API", "Make.com", "Airtable"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "FinTrack AI",
+    category: "RAG & LLMs",
+    description: "Expense management dashboard with automated receipt OCR scanning, semantic category classification, and personalized savings advice.",
+    students: ["Shiva Prasad"],
+    techStack: ["React", "FastAPI", "pgvector", "OpenAI GPT-4o", "Stripe"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "CampFinder AI",
+    category: "RAG & LLMs",
+    description: "Intelligent campsite and outdoor route recommender with automated reviews, weather forecasting agents, and packing lists.",
+    students: ["Sathvika Reddy"],
+    techStack: ["Next.js", "Pinecone", "Weather API", "Claude API", "Tailwind CSS"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "StayEasy AI",
+    category: "No-Code AI",
+    description: "No-code hospitality system with an automated voice agent that book rooms, handles customer support, and records reviews via speech.",
+    students: ["B. Srinu"],
+    techStack: ["Bubble", "ElevenLabs Voice API", "Make.com", "OpenAI Assistants"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "ChatSync AI",
+    category: "Full Stack",
+    description: "Real-time client communication suite with live multi-lingual translation, chat analysis, and automated meeting notes.",
+    students: ["Chandana M."],
+    techStack: ["React", "WebSocket", "Node.js", "Whisper API", "MongoDB"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "Blogify AI",
+    category: "AI Agents",
+    description: "Headless CMS that drafts SEO-optimized blog posts, tags images, and schedules social media updates from minimal text prompts.",
+    students: ["Rajneesh Kumar"],
+    techStack: ["Next.js", "Claude 3.5 Sonnet", "Vercel", "Supabase", "Upstash"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "QuizWhiz",
+    category: "RAG & LLMs",
+    description: "Interactive learning game platform that generates quiz cards and concept maps from uploaded PDF textbooks in seconds.",
+    students: ["Sirisha J."],
+    techStack: ["Next.js", "pgvector", "Python", "FastAPI", "OpenAI API"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "DocSearch AI",
+    category: "Full Stack",
+    description: "Smart medical directory matching patients to doctors based on symptoms, with automated report summaries and booking.",
+    students: ["Anif Khan"],
+    techStack: ["React", "Node.js", "Express", "MongoDB", "OpenAI API"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "FitTrack AI",
+    category: "AI Agents",
+    description: "Wellness platform integrating wearable device streams with customized workout/diet planner agents that adapt to heart rate patterns.",
+    students: ["Jashwanthi P."],
+    techStack: ["Next.js", "FastAPI", "LangChain", "Anthropic Claude", "PostgreSQL"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "ShopSphere AI",
+    category: "Full Stack",
+    description: "E-commerce platform with an integrated shopping assistant that recommends products based on user style descriptions.",
+    students: ["Sri Hari"],
+    techStack: ["React", "Node.js", "MongoDB", "Pinecone", "OpenAI GPT-4o"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "DevCollab AI",
+    category: "Full Stack",
+    description: "Real-time collaborative code editor with integrated AI debugging, auto-comment generation, and instant code explanation options.",
+    students: ["Sai Krishna"],
+    techStack: ["Next.js", "WebRTC", "Express", "Claude API", "Socket.io"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "EventHorizon AI",
+    category: "Full Stack",
+    description: "Smart event management tool featuring automated marketing emails, custom invitation copy, and AI event coordination chatbot.",
+    students: ["Sukumar T."],
+    techStack: ["Next.js", "PostgreSQL", "Node.js", "OpenAI API", "Tailwind CSS"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  },
+  {
+    name: "ResumeGen AI",
+    category: "No-Code AI",
+    description: "No-code portfolio builder creating customized, job-tailored resumes and tracking mock interview preparation and answers.",
+    students: ["Roshan V."],
+    techStack: ["Softr", "Make.com", "ChatGPT API", "Google Sheets", "Airtable"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com"
+  }
 ];
