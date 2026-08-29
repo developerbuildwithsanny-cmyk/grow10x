@@ -32,7 +32,7 @@ export function Footer() {
               </div>
             </div>
             <Link
-              href="/#programs"
+              href="/requestcallback?source=Footer - Get Started Free"
               className="flex items-center gap-2 rounded-full bg-accent-emerald px-6 py-2.5 font-heading text-sm font-bold text-black hover:bg-accent-emerald/90 transition-all shrink-0"
             >
               Get Started Free

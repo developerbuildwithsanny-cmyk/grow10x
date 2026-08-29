@@ -207,8 +207,8 @@ export function ToolsPageContent() {
               <ArrowRightIcon />
             </Link>
             <Link
-              href="/#programs"
-              className="rounded-lg border-2 border-accent-emerald px-8 py-3 font-heading text-base font-bold text-accent-emerald"
+              href="/requestcallback?source=Tools Page - Join Free Community"
+              className="rounded-lg border-2 border-accent-emerald px-8 py-3 font-heading text-base font-bold text-accent-emerald hover:bg-accent-emerald/10 transition-colors"
             >
               Join Free Community
             </Link>

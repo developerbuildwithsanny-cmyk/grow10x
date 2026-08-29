@@ -154,8 +154,8 @@ export function Navbar() {
               LOGIN
             </Link>
             <Link
-              href="/#programs"
-              className="rounded bg-green px-6 py-2 font-heading text-base font-bold text-black"
+              href="/requestcallback?source=Navbar - Join Course"
+              className="rounded bg-green px-6 py-2 font-heading text-base font-bold text-black hover:bg-accent-green transition-colors"
             >
               Join Course
             </Link>

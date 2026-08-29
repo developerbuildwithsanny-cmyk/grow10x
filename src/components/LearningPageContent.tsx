@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { Container, ArrowRightIcon, CheckIcon } from "@/components/ui";
 import { curriculumWeeks } from "@/lib/data";
@@ -34,17 +32,17 @@ export function LearningPageContent() {
           </p>
           <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
             <Link
-              href="/#programs"
+              href="/requestcallback?source=Learning Page - Hero Enroll"
               className="inline-flex items-center gap-2 rounded-lg bg-green px-8 py-3 font-heading text-base font-bold text-black hover:bg-accent-green transition-colors"
             >
               Enroll Now
             </Link>
-            <a
-              href="#curriculum"
+            <Link
+              href="/requestcallback?source=Learning Page - Download Curriculum"
               className="rounded-lg border border-border-dark bg-card-dark px-8 py-3 font-heading text-base font-bold text-white hover:border-zinc-700 transition-colors"
             >
               Download Curriculum
-            </a>
+            </Link>
           </div>
         </Container>
       </section>
@@ -162,7 +160,6 @@ export function LearningPageContent() {
         <Container className="max-w-4xl">
           <div className="rounded-2xl border border-border-dark bg-card-dark p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 md:gap-12">
             <div className="relative h-32 w-32 shrink-0 overflow-hidden rounded-full border border-green/30 bg-black">
-              {/* Fallback avatar with letters */}
               <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-green-20 to-green-10 text-3xl font-extrabold text-green">
                 GA
               </div>
@@ -198,7 +195,7 @@ export function LearningPageContent() {
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link
-              href="/#programs"
+              href="/requestcallback?source=Learning Page - Footer Enroll"
               className="inline-flex items-center gap-2 rounded-lg bg-green px-8 py-3 font-heading text-base font-bold text-black hover:bg-accent-green transition-colors"
             >
               Enroll in Program
