@@ -12,7 +12,7 @@ export const navLinks = [
 export const heroStats = [
   { value: "12k+", label: "Builders" },
   { value: "450+", label: "Apps Launched" },
-  { value: "₹2Cr+", label: "Member Earnings" },
+  { value: "1000+", label: "Member Placed" },
   { value: "94%", label: "Completion Rate" },
 ];
 
