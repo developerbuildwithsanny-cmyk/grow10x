@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Outfit:wght@700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -38,6 +38,12 @@
   --color-cta-band: #0d1f12;
   --color-tools-footer: #00180b;
   --color-badge-yellow: #eab308;
+  --color-brand: #ff4141;
+  --color-brand-orange: #ff8041;
+  --color-nav-muted: #4a4a4a;
+  --color-nav-border: #e2e8f0;
+  --font-outfit-family: "Outfit", sans-serif;
+  --font-figtree-family: "Figtree", sans-serif;
 }
 
 @theme inline {
@@ -74,10 +80,16 @@
   --color-cta-band: var(--color-cta-band);
   --color-tools-footer: var(--color-tools-footer);
   --color-badge-yellow: var(--color-badge-yellow);
+  --color-brand: var(--color-brand);
+  --color-brand-orange: var(--color-brand-orange);
+  --color-nav-muted: var(--color-nav-muted);
+  --color-nav-border: var(--color-nav-border);
 
   --font-heading: var(--font-space-grotesk);
   --font-body: var(--font-inter);
   --font-mono: var(--font-jetbrains-mono);
+  --font-outfit: var(--font-outfit-family);
+  --font-figtree: var(--font-figtree-family);
 
   --shadow-card: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
   --shadow-sm: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);

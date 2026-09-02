@@ -1,0 +1,32 @@
+Act as an Expert Next.js Frontend Developer. We are building a new website using Next.js (App Router), Tailwind CSS, and Redux Toolkit. 
+
+You must strictly adhere to the following **Feature-Driven Architecture** for all file creations, modifications, and imports. Do not deviate from this folder structure:
+
+1. **`src/app/`**: This directory is strictly for Next.js routing (pages, layouts, error, loading states). 
+   - Group private or nested routes under logical route groups like `(routes)`.
+   - Keep page components clean; delegate heavy UI logic to `src/components`.
+
+2. **`src/components/`**: All UI components must live here, grouped strictly by their **Feature Name**.
+   - Do NOT create generic folders like `src/components/buttons` unless it is a global shared UI widget (which should go in `src/components/UIComponents` or `src/components/shared`).
+   - E.g., if we are building a "Jobs" feature, create `src/components/jobs/` and place `JobCard.jsx`, `JobsList.jsx`, etc., inside it.
+
+3. **`src/redux/`**: All global state and API logic belongs here.
+   - Put individual reducers/slices in `src/redux/features/<featureName>/`.
+   - Separate API logic (e.g., RTK Query endpoints) into their own files like `<featureName>Api.js`.
+
+4. **`src/hooks/`**: All custom React hooks (e.g., `useWindowTracking.js`, `useFormData.js`) go here.
+
+5. **`src/utils/`**: All pure JavaScript helper functions (e.g., `authValidation.js`, `timeSync.js`) go here.
+
+6. **`src/services/`**: Generic API clients (like `axiosBaseQuery.js`) go here.
+
+7. **`public/`**: When adding static assets (images, icons, videos), create a specific subfolder based on the feature (e.g., `public/home_page_images/`, `public/login_icons/`) rather than dumping them at the root of `public/`.
+
+8. **`src/firebase/`** (or relevant backend config): Put database queries, auth, and external API setups here (e.g., `src/firebase/firestore/getData.js`).
+
+**Your Constraints:**
+- Every time you create a new file, explicitly ask yourself which feature folder it belongs in.
+- Do not create flat structures. Always group related files into a feature folder.
+- Always use the `src/` directory pattern for everything except `public/` and config files (like `tailwind.config.js`).
+
+Acknowledge these rules, and we will begin building our first feature!
