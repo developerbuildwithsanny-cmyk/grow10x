@@ -1,0 +1,333 @@
+[
+    {
+        "slug":  "data-science",
+        "title":  "Data Science & ML",
+        "viewDetailsLink": "/requestcallback?source=DataScience",
+        "heroImage":  "/images/careers/hero_image_datascience.webp",
+        "programTitle":  "Program",
+        "description":  "Work with real datasets, build ML models, and solve business case studies with Python and Scikit-Learn.",
+        "bannerImage":  "/images/careers/01-data-science.webp",
+        "technologies":  [
+                             "Python",
+                             "NumPy",
+                             "Pandas",
+                             "Matplotlib"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "python-full-stack-ai",
+        "title":  "Python Full Stack",
+        "viewDetailsLink": "/requestcallback?source=PythonFullStackAI",
+        "heroImage":  "/images/careers/hero_image_python.webp",
+        "programTitle":  "With AI Integration",
+        "description":  "End-to-end Python web development with Django, React, and seamless LLM integration.",
+        "bannerImage":  "/images/careers/02-python-full-stack-ai-integration.webp",
+        "technologies":  [
+                             "Python",
+                             "Django",
+                             "React",
+                             "PostgreSQL"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "java-full-stack-ai",
+        "title":  "Java Full Stack AI",
+        "viewDetailsLink": "/requestcallback?source=JavaFullStackAI",
+        "heroImage":  "/images/careers/03-java-full-stack-ai-integration.webp",
+        "programTitle":  "Program",
+        "description":  "Learn enterprise Java backend with Spring Boot, React frontend, and AI integration.",
+        "bannerImage":  "/images/careers/03-java-full-stack-ai-integration.webp",
+        "technologies":  [
+                             "Java",
+                             "Spring Boot",
+                             "React",
+                             "MySQL"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "mern-ai",
+        "title":  "MERN Stack with AI",
+        "viewDetailsLink": "/requestcallback?source=MERNStackAI",
+        "heroImage":  "/images/careers/04-magento-ai.webp",
+        "programTitle":  "Program",
+        "description":  "Build modern web applications with MongoDB, Express, React, Node.js and AI APIs.",
+        "bannerImage":  "/images/careers/04-magento-ai.webp",
+        "technologies":  [
+                             "MongoDB",
+                             "Express",
+                             "React",
+                             "Node.js"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "agentic-ai",
+        "title":  "Agentic AI",
+        "viewDetailsLink": "/requestcallback?source=AgenticAI",
+        "heroImage":  "/images/careers/hero_image_05.webp",
+        "programTitle":  "Program",
+        "description":  "Build autonomous AI agents that can reason, plan, and execute tasks across various domains.",
+        "bannerImage":  "/images/careers/05-ai-rml.webp",
+        "technologies":  [
+                             "Python",
+                             "LangChain",
+                             "LlamaIndex",
+                             "AutoGPT"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "devops-ai",
+        "title":  "DevOps with AI",
+        "viewDetailsLink": "/requestcallback?source=DevOpsAI",
+        "heroImage":  "/images/careers/06-devops-ai-integration.webp",
+        "programTitle":  "Program",
+        "description":  "Master cloud infrastructure, CI/CD pipelines, and AI-driven monitoring and automation.",
+        "bannerImage":  "/images/careers/06-devops-ai-integration.webp",
+        "technologies":  [
+                             "Docker",
+                             "Kubernetes",
+                             "AWS",
+                             "Terraform"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "genai",
+        "title":  "GenAI",
+        "viewDetailsLink": "/requestcallback?source=GenAI",
+        "heroImage":  "/images/careers/hero_image_10.webp",
+        "programTitle":  "Program",
+        "description":  "Design and deploy GenAI products using prompts, model APIs, and production-ready application patterns.",
+        "bannerImage":  "/images/careers/07-gen-ai.webp",
+        "technologies":  [
+                             "Perplexity",
+                             "OpenAI API",
+                             "Gemini API",
+                             "Claude API"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "cyber-security-ai-integration",
+        "title":  "Cyber Security with AI Integration",
+        "viewDetailsLink": "/requestcallback?source=CyberSecurityAI",
+        "heroImage":  "/images/careers/08-cybersecurity-ai-integration.webp",
+        "programTitle":  "Program",
+        "description":  "Learn cyber security fundamentals with AI-powered monitoring, threat analysis, and secure engineering practices.",
+        "bannerImage":  "/images/careers/08-cybersecurity-ai-integration.webp",
+        "technologies":  [
+                             "Linux",
+                             "Python",
+                             "Wireshark",
+                             "Nmap",
+                             "Kali Linux"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "ui-ux-ai-integration",
+        "title":  "UI/UX with AI Integration",
+        "viewDetailsLink": "/requestcallback?source=UIUXAI",
+        "heroImage":  "/images/careers/09-ui-ux-ai-integration.webp",
+        "programTitle":  "Program",
+        "description":  "Design beautiful, user-centric interfaces with AI-enhanced workflows.",
+        "bannerImage":  "/images/careers/09-ui-ux-ai-integration.webp",
+        "technologies":  [
+                             "Figma",
+                             "Adobe XD",
+                             "Photoshop",
+                             "Wireframing"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "low-code-automation-tool",
+        "title":  "Low-code Automation Tool",
+        "viewDetailsLink": "/requestcallback?source=LowCodeAutomationTool",
+        "heroImage":  "/images/careers/10-low-code-automation-tool.webp",
+        "programTitle":  "Program",
+        "description":  "Design and deploy low-code automation workflows that connect apps, APIs, and AI tools.",
+        "bannerImage":  "/images/careers/10-low-code-automation-tool.webp",
+        "technologies":  [
+                             "n8n",
+                             "Zapier",
+                             "Make.com",
+                             "OpenAI API",
+                             "GitHub"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "data-analysis",
+        "title":  "Data Analysis",
+        "viewDetailsLink": "/requestcallback?source=DataAnalysis",
+        "heroImage":  "/images/careers/11-data-analysis.webp",
+        "programTitle":  "Program",
+        "description":  "Become job-ready in data analysis - from spreadsheets and SQL to Python analytics and dashboards.",
+        "bannerImage":  "/images/careers/11-data-analysis.webp",
+        "technologies":  [
+                             "Python",
+                             "Pandas",
+                             "NumPy",
+                             "MySQL",
+                             "PostgreSQL"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "ai-tools",
+        "title":  "AI Tools",
+        "viewDetailsLink": "/requestcallback?source=AITools",
+        "heroImage":  "/images/careers/12-ai-tools.webp",
+        "programTitle":  "Program",
+        "description":  "Master everyday AI productivity tools - ChatGPT, Copilot, Cursor, and workflows that speed up real work.",
+        "bannerImage":  "/images/careers/12-ai-tools.webp",
+        "technologies":  [
+                             "Cursor AI",
+                             "Antigravity",
+                             "Claude Code",
+                             "ChatGPT"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "ai-ml",
+        "title":  "AI/ML",
+        "viewDetailsLink": "/requestcallback?source=AI-ML",
+        "heroImage":  "/images/careers/13-ai-rml.webp",
+        "programTitle":  "Program",
+        "description":  "Become job-ready in AI/ML - Python & math foundations, classical ML, deep learning, LLMs/RAG, AI agents, and end-to-end MLOps.",
+        "bannerImage":  "/images/careers/13-ai-rml.webp",
+        "technologies":  [
+                             "Python",
+                             "NumPy",
+                             "Pandas",
+                             "Scikit-learn",
+                             "TensorFlow"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "dsa",
+        "title":  "DSA",
+        "viewDetailsLink": "/requestcallback?source=DSA",
+        "heroImage":  "/images/careers/14-dsc.webp",
+        "programTitle":  "Program",
+        "description":  "Strengthen problem-solving with structured DSA practice to clear technical interviews at top companies.",
+        "bannerImage":  "/images/careers/14-dsc.webp",
+        "technologies":  [
+                             "LeetCode",
+                             "CodeChef",
+                             "HackerRank",
+                             "Codeforces"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "reactjs-ai-integration",
+        "title":  "ReactJS with AI Integration",
+        "viewDetailsLink": "/requestcallback?source=reactjsai",
+        "heroImage":  "/images/careers/15-aijs-ai-integration.webp",
+        "programTitle":  "Program",
+        "description":  "Master React.js with hooks, routing, state management, and full-stack integration through real-world projects.",
+        "bannerImage":  "/images/careers/15-aijs-ai-integration.webp",
+        "technologies":  [
+                             "HTML5",
+                             "CSS3",
+                             "JavaScript",
+                             "Bootstrap",
+                             "Tailwind"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "backend-nodejs-ai-integration",
+        "title":  "Back-end Node.js with AI Integration",
+        "viewDetailsLink": "/requestcallback?source=backendnodejsai",
+        "heroImage":  "/images/careers/16-backend-nodejs-ai-integration.webp",
+        "programTitle":  "Program",
+        "description":  "Become a job-ready Node.js backend developer with Express, databases, and AI API integrations.",
+        "bannerImage":  "/images/careers/16-backend-nodejs-ai-integration.webp",
+        "technologies":  [
+                             "Node.js",
+                             "Express.js",
+                             "MongoDB",
+                             "PostgreSQL"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "backend-django-ai-integration",
+        "title":  "Back-end Django with AI Integration",
+        "viewDetailsLink": "/requestcallback?source=backenddjangoai",
+        "heroImage":  "/images/careers/17-backend-django-ai-integration.webp",
+        "programTitle":  "Program",
+        "description":  "Master Django backend development with PostgreSQL, APIs, and AI integrations for real products.",
+        "bannerImage":  "/images/careers/17-backend-django-ai-integration.webp",
+        "technologies":  [
+                             "Python",
+                             "Django",
+                             "PostgreSQL",
+                             "REST APIs",
+                             "JWT"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    },
+    {
+        "slug":  "software-testing-ai-integration",
+        "title":  "Software Testing with AI Integration",
+        "viewDetailsLink": "/requestcallback?source=softwaretestingai",
+        "heroImage":  "/images/careers/18-software-testing-ai-integration.webp",
+        "programTitle":  "Program",
+        "description":  "Learn manual and automation testing with Selenium, Postman, TestNG, and AI-assisted QA workflows for modern applications.",
+        "bannerImage":  "/images/careers/18-software-testing-ai-integration.webp",
+        "technologies":  [
+                             "Java",
+                             "Selenium",
+                             "TestNG",
+                             "Postman",
+                             "Cucumber"
+                         ],
+        "duration":  "6 Months",
+        "projects":  "6+ Projects",
+        "level":  "Beginner to Advanced"
+    }
+]
