@@ -16,7 +16,7 @@ const RecognitionDocs = () => {
           <span className="text-[#ff8041]"> Excellence </span> and
           <span className="text-[#ff8041]"> Innovation </span>
         </p>
-        <p className="mx-auto text-[13px] font-semibold leading-normal text-gray-500 sm:text-[16px] lg:text-[18px] whitespace-nowrap">
+        <p className="mx-auto text-[13px] font-semibold leading-normal text-gray-500 sm:text-[16px] sm:whitespace-nowrap lg:text-[18px]">
           Highlighting our commitment to excellence and industry leadership
         </p>
       </div>
