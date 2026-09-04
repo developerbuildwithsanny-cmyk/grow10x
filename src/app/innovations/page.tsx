@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { Navbar } from "@/components/Navbar";
+import { HomeNavbar } from "@/components/home/HomeNavbar";
 import { InnovationsPageContent } from "@/components/InnovationsPageContent";
-import { Footer } from "@/components/Footer";
+import { HomeFooter } from "@/components/home/HomeFooter";
 
 export const metadata: Metadata = {
   title: "Student Innovations — 10xAISchool",
@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 export default function InnovationsPage() {
   return (
     <>
-      <Navbar />
+      <HomeNavbar />
       <main>
         <InnovationsPageContent />
       </main>
-      <Footer />
+      <HomeFooter />
     </>
   );
 }

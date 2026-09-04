@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { ToolsPageContent } from "@/components/ToolsPageContent";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { HomeNavbar } from "@/components/home/HomeNavbar";
+import { HomeFooter } from "@/components/home/HomeFooter";
 
 export const metadata: Metadata = {
   title: "AI Tools Directory — 10xAISchool",
@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 export default function ToolsPage() {
   return (
     <>
-      <Navbar />
+      <HomeNavbar />
       <main>
         <ToolsPageContent />
       </main>
-      <Footer />
+      <HomeFooter />
     </>
   );
 }
