@@ -27,9 +27,9 @@ export function HomePage() {
         <HomeHero />
         <RecognitionDocs />
         <HomeStatsBar />
-        <EcosystemSlide />
+        {/* <EcosystemSlide /> */}
         <SuccessStories />
-        <HomePrograms />
+        {/* <HomePrograms /> */}
         <Path01Section />
         <EightPillarsSection />
         <AiTrackSection />
