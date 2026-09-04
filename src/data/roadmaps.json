@@ -1,0 +1,1896 @@
+{
+  "data-science": {
+    "title": "Roadmap for Data Science & ML",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Math & Stats",
+        "icon": "Box",
+        "bullets": [
+          "Linear Algebra",
+          "Calculus",
+          "Probability",
+          "Hypothesis Testing",
+          "Regression Analysis"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Programming",
+        "icon": "Code",
+        "bullets": [
+          "Python OOP",
+          "SQL",
+          "Git / GitHub",
+          "Data Structures",
+          "Algorithms"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Data Handling & EDA",
+        "icon": "Database",
+        "bullets": [
+          "Data Cleaning",
+          "Outlier Detection",
+          "Feature Distributions",
+          "BI Dashboarding",
+          "Pandas & Seaborn"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Core ML",
+        "icon": "Brain",
+        "bullets": [
+          "Supervised Learning",
+          "Unsupervised Learning",
+          "Model Evaluation",
+          "Feature Engineering",
+          "XGBoost / LightGBM"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Deep Learning & NLP",
+        "icon": "Cpu",
+        "bullets": [
+          "CNNs & RNNs",
+          "Transformers",
+          "LLMs",
+          "Prompt Engineering",
+          "RAG Basics"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Deployment & MLOps",
+        "icon": "Terminal",
+        "bullets": [
+          "FastAPI",
+          "Docker",
+          "MLflow",
+          "CI/CD & LLMOps",
+          "Vector Databases"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Projects",
+        "icon": "Briefcase",
+        "bullets": [
+          "End-to-End Projects",
+          "Real Datasets",
+          "Documentation",
+          "Kaggle",
+          "Streamlit Apps"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Portfolio & Career",
+        "icon": "GraduationCap",
+        "bullets": [
+          "GitHub Profile",
+          "Resume Polish",
+          "LinkedIn Networking",
+          "Mock Interviews",
+          "LeetCode Practice"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "python-full-stack-ai": {
+    "title": "Roadmap for Python Full Stack AI",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Python Core & Problem Solving",
+        "icon": "Box",
+        "bullets": [
+          "Syntax & Variables",
+          "Data Types & Loops",
+          "Functions",
+          "OOP Basics",
+          "File Handling"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Data Structures & Modern Libraries",
+        "icon": "Code",
+        "bullets": [
+          "Lists, Sets, Dicts, Tuples",
+          "Collections Modules",
+          "Exception Handling",
+          "Numpy & Pandas",
+          "Matplotlib"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Web Development (FastAPI + Flask)",
+        "icon": "Database",
+        "bullets": [
+          "REST APIs & Routing",
+          "Templates",
+          "Auth Basics",
+          "Async Python",
+          "SQLAlchemy & Postman"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "AI & Machine Learning Foundations",
+        "icon": "Brain",
+        "bullets": [
+          "Regression & Classification",
+          "Evaluation Metrics",
+          "Feature Engineering",
+          "BAsic NLP",
+          "Scikit-Learn & TensorFlow"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Advanced Python & AI Tools",
+        "icon": "Cpu",
+        "bullets": [
+          "Async Programming",
+          "Design Patterns",
+          "Docker Basics",
+          "LangChain & OpenAI API",
+          "HF Transformers"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Capstone & Portfolio Building",
+        "icon": "Terminal",
+        "bullets": [
+          "Docker Deployments",
+          "GitHub Workflow",
+          "Testing",
+          "CI/CD",
+          "Portfolio Projects"
+        ],
+        "accentColor": "#14b8a6"
+      }
+    ]
+  },
+  "java-full-stack-ai": {
+    "title": "Roadmap for Java Full Stack AI",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "mern-ai": {
+    "title": "Roadmap for MERN Stack with AI",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "agentic-ai": {
+    "title": "Roadmap for Agentic AI",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Foundations",
+        "icon": "Box",
+        "bullets": [
+          "Python Basics",
+          "APIs",
+          "Data Handling",
+          "ML Concepts",
+          "Task Automation"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "LLM Fundamentals",
+        "icon": "Code",
+        "bullets": [
+          "Large Language Models",
+          "Prompt Design",
+          "LLM APIs",
+          "Output Control",
+          "Model Parameters"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "RAG Systems",
+        "icon": "Database",
+        "bullets": [
+          "Document Connections",
+          "Data Retrieval",
+          "Embeddings",
+          "Vector Search",
+          "Document Q&A"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Agent Architecture",
+        "icon": "Brain",
+        "bullets": [
+          "Reasoning",
+          "Planning",
+          "Memory",
+          "Tools",
+          "Multi-Step Tasks"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Multi-Agent Systems",
+        "icon": "Cpu",
+        "bullets": [
+          "Agent Collaboration",
+          "Coordination",
+          "Role Design",
+          "Multi-Agent Workflows",
+          "System Design"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "ToolUse & Integrations",
+        "icon": "Terminal",
+        "bullets": [
+          "External APIs",
+          "Tool Integration",
+          "Workflows",
+          "Real-World Actions",
+          "Function Calling"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Memory & Autonomy",
+        "icon": "Briefcase",
+        "bullets": [
+          "Long-Term Memory",
+          "Planning Loops",
+          "State Management",
+          "Longer Workflows",
+          "Autonomy"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Evaluation & Safety",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Realiability",
+          "Feedback Loops",
+          "Guardrails",
+          "Agent Evaluation",
+          "Behaviour Improvement"
+        ],
+        "accentColor": "#3f3f46"
+      },{
+        "id": "09",
+        "title": "Deployment & MLOps",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Deployment",
+          "Mointoring",
+          "Scaling",
+          "Production Realiability",
+          "MLOps"
+        ],
+        "accentColor": "#3f3f46"
+      },
+      {
+        "id": "10",
+        "title": "Portfolio Projects",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Capstone Projects",
+          "Pratical APPs",
+          "Documentations",
+          "Portfolio Polish",
+          "Job-Ready Showcase"
+        ],
+        "accentColor": "#3f3f46"
+      }
+      
+    ]
+  },
+  "devops-ai": {
+    "title": "Roadmap for DevOps with AI",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "genai": {
+    "title": "Roadmap for GenAI",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Foundations",
+        "icon": "Box",
+        "bullets": [
+          "Python Fundamentals",
+          "Numpy & Pandas",
+          "ML Basics",
+          "Train / Test splits",
+          "Jupyter / Colab"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Deep Learning Fundamentals",
+        "icon": "Code",
+        "bullets": [
+          "Neural Networks",
+          "Activation Functions",
+          "Loss & Backprop",
+          "Gradient Descent",
+          "PyTorch / TensorFlow"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Transformers & LLMBasics",
+        "icon": "Database",
+        "bullets": [
+          "Self-Attention",
+          "Encoder/Decoder",
+          "Tokenization",
+          "Embeddings",
+          "Hugging Face Transformers"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Prompt Engineering",
+        "icon": "Brain",
+        "bullets": [
+          "Zero/Few-shot",
+          "Role Prompting",
+          "Chain of Thoughts",
+          "Prompt Templates",
+          "Chatbots & Summarization"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Fine-Tuning & Custom Training",
+        "icon": "Cpu",
+        "bullets": [
+          "LoRA/QLoRA",
+          "Instruction Tuning",
+          "Dataset Prep",
+          "PEFT Fine-Tuning",
+          "Domain LLMs"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Diffusion Models",
+        "icon": "Terminal",
+        "bullets": [
+          "Diffusion Basics",
+          "Latent Diffusion",
+          "stable Diffusion",
+          "Diffusers / ComfyUI",
+          "Style Fine-Tuning"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Rag Systems",
+        "icon": "Briefcase",
+        "bullets": [
+          "Embeddings & Indexing",
+          "Vector Databases",
+          "Context Injection",
+          "Langchain / LlamaIndex",
+          "PDF Q&A Chatbots"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "AI Agents",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Agent Arichitectures",
+          "Tool Use",
+          "Planning & Memory",
+          "Langchain Agents",
+          "Multi-Agent Systems"
+        ],
+        "accentColor": "#3f3f46"
+      },
+       {
+        "id": "09",
+        "title": "LLMOps & Deployment",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Model Serving",
+          "FastAPIs & Docker",
+          "Quantization",
+          "Kubernetes Scaling",
+          "Monitoring & CI/CD"
+        ],
+        "accentColor": "#3f3f46"
+      },
+       {
+        "id": "10",
+        "title": "Portfolio & Job Prep",
+        "icon": "GraduationCap",
+        "bullets": [
+          "LLM Application",
+          "Fine-Tuned Model",
+          "RAG System",
+          "Diffusion Project",
+          "AI Agent Capstone"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "cyber-security-ai-integration": {
+    "title": "Roadmap for Cyber Security with AI Integration",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "ui-ux-ai-integration": {
+    "title": "Roadmap for UI/UX with AI Integration",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "low-code-automation-tool": {
+    "title": "Roadmap for Low-code Automation Tool",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "data-analysis": {
+    "title": "Roadmap for Data Analysis",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "ai-tools": {
+    "title": "Roadmap for AI Tools",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "ai-ml": {
+    "title": "Roadmap for AI/ML",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "dsa": {
+    "title": "Roadmap for DSA",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "reactjs-ai-integration": {
+    "title": "Roadmap for ReactJS with AI Integration",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "backend-nodejs-ai-integration": {
+    "title": "Roadmap for Back-end Node.js with AI Integration",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "backend-django-ai-integration": {
+    "title": "Roadmap for Back-end Django with AI Integration",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  },
+  "software-testing-ai-integration": {
+    "title": "Roadmap for Software Testing with AI Integration",
+    "subtitle": "A clear step-by-step journey from foundations to job-ready skills.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Stage 1",
+        "icon": "Box",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#f97316"
+      },
+      {
+        "id": "02",
+        "title": "Stage 2",
+        "icon": "Code",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "03",
+        "title": "Stage 3",
+        "icon": "Database",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "04",
+        "title": "Stage 4",
+        "icon": "Brain",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "05",
+        "title": "Stage 5",
+        "icon": "Cpu",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "06",
+        "title": "Stage 6",
+        "icon": "Terminal",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "07",
+        "title": "Stage 7",
+        "icon": "Briefcase",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "08",
+        "title": "Stage 8",
+        "icon": "GraduationCap",
+        "bullets": [
+          "Fundamental Concepts",
+          "Practical Applications",
+          "Hands-on Projects",
+          "Industry Best Practices"
+        ],
+        "accentColor": "#3f3f46"
+      }
+    ]
+  }
+}

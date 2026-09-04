@@ -1,0 +1,794 @@
+{
+  "data-science": [
+    {
+      "id": "proj-1",
+      "title": "Sales Forecasting...",
+      "description": "Predict sales trends with regression...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "Customer Churn...",
+      "description": "Classify churn risk and surface key...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "Recommendation Engine",
+      "description": "Build product recommendations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "Sentiment Analysis...",
+      "description": "Analyze reviews and visualize...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "ML Model Dashboard",
+      "description": "Serve model metrics, predictio...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "ML Pipeline Deploy",
+      "description": "Package and deploy models with...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "python-full-stack-ai": [
+    {
+      "id": "proj-1",
+      "title": "AI-Powered Commerce...",
+      "description": "Personalized Products, Smart...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_python.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "Intelligent Job Matching...",
+      "description": "Match Candidates to roles with AI...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_python.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "Adaptive Learning...",
+      "description": "Personalizes Courses, quizzes...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_python.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "AI Sales Intelligence...",
+      "description": "Lead Scoring, Summaries and...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_python.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "Python AI SaaS...",
+      "description": "Multi -tenant AI tools with builing, quota...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_python.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "Deployment/Cloud Project...",
+      "description": "Deploy full-stack apps on AWS/...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_python.webp"
+    }
+  ],
+  "java-full-stack-ai": [
+    {
+      "id": "proj-1",
+      "title": "Java Project 1...",
+      "description": "Learn to build real-world Java Full Stack AI solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_java.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "Java Project 2...",
+      "description": "Learn to build real-world Java Full Stack AI solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "Java Project 3...",
+      "description": "Learn to build real-world Java Full Stack AI solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "Java Project 4...",
+      "description": "Learn to build real-world Java Full Stack AI solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "Java Project 5...",
+      "description": "Learn to build real-world Java Full Stack AI solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "Java Project 6...",
+      "description": "Learn to build real-world Java Full Stack AI solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "mern-ai": [
+    {
+      "id": "proj-1",
+      "title": "MERN Project 1...",
+      "description": "Learn to build real-world MERN Stack with AI solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "MERN Project 2...",
+      "description": "Learn to build real-world MERN Stack with AI solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "MERN Project 3...",
+      "description": "Learn to build real-world MERN Stack with AI solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "MERN Project 4...",
+      "description": "Learn to build real-world MERN Stack with AI solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "MERN Project 5...",
+      "description": "Learn to build real-world MERN Stack with AI solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "MERN Project 6...",
+      "description": "Learn to build real-world MERN Stack with AI solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "agentic-ai": [
+    {
+      "id": "proj-1",
+      "title": "Customer Onboarding...",
+      "description": "Multi-Step agent that guides new...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_05.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "GitHub PR Review Agent...",
+      "description": "Automated code review comments...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_05.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "Research Agent Crew",
+      "description": "Multi-Agent research with...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_05.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "Support Triage Agent...",
+      "description": "Route tickets and draft replies ...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_05.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "Ops Autopilot Agent...",
+      "description": "Monitor Systems and trigger...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_05.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "Agentic Platform...",
+      "description": "Compose agents, tools, Memory...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_05.webp"
+    }
+  ],
+  "devops-ai": [
+    {
+      "id": "proj-1",
+      "title": "DevOps Project 1...",
+      "description": "Learn to build real-world DevOps with AI solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "DevOps Project 2...",
+      "description": "Learn to build real-world DevOps with AI solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "DevOps Project 3...",
+      "description": "Learn to build real-world DevOps with AI solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "DevOps Project 4...",
+      "description": "Learn to build real-world DevOps with AI solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "DevOps Project 5...",
+      "description": "Learn to build real-world DevOps with AI solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "DevOps Project 6...",
+      "description": "Learn to build real-world DevOps with AI solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "genai": [
+    {
+      "id": "proj-1",
+      "title": "AI Study Assistant",
+      "description": "Generate Summaries, quizz...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_10.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "Email Draft Copilot",
+      "description": "Draft and rewrite emails with tone...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_10.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "PDF Intelligence",
+      "description": "Extract Structured data from PDFs...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_10.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "GenAI Project 4...",
+      "description": "Learn to build real-world GenAI solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_10.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "Conversational Chatbot",
+      "description": "Domain Chatbot with memory and...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_10.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "GenAI Usage Metering",
+      "description": "Track tokens, cost and feature...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_10.webp"
+    }
+  ],
+  "cyber-security-ai-integration": [
+    {
+      "id": "proj-1",
+      "title": "Cyber Project 1...",
+      "description": "Learn to build real-world Cyber Security with AI Integration solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "Cyber Project 2...",
+      "description": "Learn to build real-world Cyber Security with AI Integration solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "Cyber Project 3...",
+      "description": "Learn to build real-world Cyber Security with AI Integration solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "Cyber Project 4...",
+      "description": "Learn to build real-world Cyber Security with AI Integration solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "Cyber Project 5...",
+      "description": "Learn to build real-world Cyber Security with AI Integration solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "Cyber Project 6...",
+      "description": "Learn to build real-world Cyber Security with AI Integration solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "ui-ux-ai-integration": [
+    {
+      "id": "proj-1",
+      "title": "UI/UX Project 1...",
+      "description": "Learn to build real-world UI/UX with AI Integration solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "UI/UX Project 2...",
+      "description": "Learn to build real-world UI/UX with AI Integration solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "UI/UX Project 3...",
+      "description": "Learn to build real-world UI/UX with AI Integration solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "UI/UX Project 4...",
+      "description": "Learn to build real-world UI/UX with AI Integration solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "UI/UX Project 5...",
+      "description": "Learn to build real-world UI/UX with AI Integration solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "UI/UX Project 6...",
+      "description": "Learn to build real-world UI/UX with AI Integration solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "low-code-automation-tool": [
+    {
+      "id": "proj-1",
+      "title": "Low-code Project 1...",
+      "description": "Learn to build real-world Low-code Automation Tool solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "Low-code Project 2...",
+      "description": "Learn to build real-world Low-code Automation Tool solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "Low-code Project 3...",
+      "description": "Learn to build real-world Low-code Automation Tool solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "Low-code Project 4...",
+      "description": "Learn to build real-world Low-code Automation Tool solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "Low-code Project 5...",
+      "description": "Learn to build real-world Low-code Automation Tool solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "Low-code Project 6...",
+      "description": "Learn to build real-world Low-code Automation Tool solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "data-analysis": [
+    {
+      "id": "proj-1",
+      "title": "Data Project 1...",
+      "description": "Learn to build real-world Data Analysis solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "Data Project 2...",
+      "description": "Learn to build real-world Data Analysis solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "Data Project 3...",
+      "description": "Learn to build real-world Data Analysis solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "Data Project 4...",
+      "description": "Learn to build real-world Data Analysis solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "Data Project 5...",
+      "description": "Learn to build real-world Data Analysis solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "Data Project 6...",
+      "description": "Learn to build real-world Data Analysis solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "ai-tools": [
+    {
+      "id": "proj-1",
+      "title": "AI Project 1...",
+      "description": "Learn to build real-world AI Tools solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "AI Project 2...",
+      "description": "Learn to build real-world AI Tools solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "AI Project 3...",
+      "description": "Learn to build real-world AI Tools solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "AI Project 4...",
+      "description": "Learn to build real-world AI Tools solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "AI Project 5...",
+      "description": "Learn to build real-world AI Tools solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "AI Project 6...",
+      "description": "Learn to build real-world AI Tools solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "ai-ml": [
+    {
+      "id": "proj-1",
+      "title": "AI/ML Project 1...",
+      "description": "Learn to build real-world AI/ML solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "AI/ML Project 2...",
+      "description": "Learn to build real-world AI/ML solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "AI/ML Project 3...",
+      "description": "Learn to build real-world AI/ML solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "AI/ML Project 4...",
+      "description": "Learn to build real-world AI/ML solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "AI/ML Project 5...",
+      "description": "Learn to build real-world AI/ML solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "AI/ML Project 6...",
+      "description": "Learn to build real-world AI/ML solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "dsa": [
+    {
+      "id": "proj-1",
+      "title": "DSA Project 1...",
+      "description": "Learn to build real-world DSA solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "DSA Project 2...",
+      "description": "Learn to build real-world DSA solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "DSA Project 3...",
+      "description": "Learn to build real-world DSA solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "DSA Project 4...",
+      "description": "Learn to build real-world DSA solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "DSA Project 5...",
+      "description": "Learn to build real-world DSA solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "DSA Project 6...",
+      "description": "Learn to build real-world DSA solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "reactjs-ai-integration": [
+    {
+      "id": "proj-1",
+      "title": "ReactJS Project 1...",
+      "description": "Learn to build real-world ReactJS with AI Integration solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "ReactJS Project 2...",
+      "description": "Learn to build real-world ReactJS with AI Integration solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "ReactJS Project 3...",
+      "description": "Learn to build real-world ReactJS with AI Integration solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "ReactJS Project 4...",
+      "description": "Learn to build real-world ReactJS with AI Integration solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "ReactJS Project 5...",
+      "description": "Learn to build real-world ReactJS with AI Integration solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "ReactJS Project 6...",
+      "description": "Learn to build real-world ReactJS with AI Integration solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "backend-nodejs-ai-integration": [
+    {
+      "id": "proj-1",
+      "title": "Back-end Project 1...",
+      "description": "Learn to build real-world Back-end Node.js with AI Integration solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "Back-end Project 2...",
+      "description": "Learn to build real-world Back-end Node.js with AI Integration solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "Back-end Project 3...",
+      "description": "Learn to build real-world Back-end Node.js with AI Integration solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "Back-end Project 4...",
+      "description": "Learn to build real-world Back-end Node.js with AI Integration solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "Back-end Project 5...",
+      "description": "Learn to build real-world Back-end Node.js with AI Integration solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "Back-end Project 6...",
+      "description": "Learn to build real-world Back-end Node.js with AI Integration solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "backend-django-ai-integration": [
+    {
+      "id": "proj-1",
+      "title": "Back-end Project 1...",
+      "description": "Learn to build real-world Back-end Django with AI Integration solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "Back-end Project 2...",
+      "description": "Learn to build real-world Back-end Django with AI Integration solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "Back-end Project 3...",
+      "description": "Learn to build real-world Back-end Django with AI Integration solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "Back-end Project 4...",
+      "description": "Learn to build real-world Back-end Django with AI Integration solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "Back-end Project 5...",
+      "description": "Learn to build real-world Back-end Django with AI Integration solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "Back-end Project 6...",
+      "description": "Learn to build real-world Back-end Django with AI Integration solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ],
+  "software-testing-ai-integration": [
+    {
+      "id": "proj-1",
+      "title": "Software Project 1...",
+      "description": "Learn to build real-world Software Testing with AI Integration solutions with advanced integrations...",
+      "icon": "BarChart2",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-2",
+      "title": "Software Project 2...",
+      "description": "Learn to build real-world Software Testing with AI Integration solutions with advanced integrations...",
+      "icon": "Box",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-3",
+      "title": "Software Project 3...",
+      "description": "Learn to build real-world Software Testing with AI Integration solutions with advanced integrations...",
+      "icon": "Bot",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-4",
+      "title": "Software Project 4...",
+      "description": "Learn to build real-world Software Testing with AI Integration solutions with advanced integrations...",
+      "icon": "LineChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-5",
+      "title": "Software Project 5...",
+      "description": "Learn to build real-world Software Testing with AI Integration solutions with advanced integrations...",
+      "icon": "PieChart",
+      "image": "/images/careers/hero_image_datascience.webp"
+    },
+    {
+      "id": "proj-6",
+      "title": "Software Project 6...",
+      "description": "Learn to build real-world Software Testing with AI Integration solutions with advanced integrations...",
+      "icon": "Cloud",
+      "image": "/images/careers/hero_image_datascience.webp"
+    }
+  ]
+}

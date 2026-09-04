@@ -1,0 +1,92 @@
+{
+  "data-science": {
+    "color": "#4CAF50",
+    "colorLight": "#E8F5E9",
+    "colorMid": "#81C784"
+  },
+  "python-full-stack-ai": {
+    "color": "#3776AB",
+    "colorLight": "#E3EFF7",
+    "colorMid": "#6FA8D0"
+  },
+  "java-full-stack-ai": {
+    "color": "#E76F00",
+    "colorLight": "#FDF0E3",
+    "colorMid": "#F4A35A"
+  },
+  "mern-ai": {
+    "color": "#00B4A0",
+    "colorLight": "#E0F5F3",
+    "colorMid": "#4DCFC5"
+  },
+  "agentic-ai": {
+    "color": "#7C3AED",
+    "colorLight": "#EDE9FB",
+    "colorMid": "#A78BFA"
+  },
+  "devops-ai": {
+    "color": "#F97316",
+    "colorLight": "#FEF0E7",
+    "colorMid": "#FDBA74"
+  },
+  "genai": {
+    "color": "#8B5CF6",
+    "colorLight": "#EDE9FD",
+    "colorMid": "#C4B5FD"
+  },
+  "cyber-security-ai-integration": {
+    "color": "#DC2626",
+    "colorLight": "#FEE2E2",
+    "colorMid": "#F87171"
+  },
+  "ui-ux-ai-integration": {
+    "color": "#DB2777",
+    "colorLight": "#FCE7F3",
+    "colorMid": "#F472B6"
+  },
+  "low-code-automation-tool": {
+    "color": "#4F46E5",
+    "colorLight": "#EEF2FF",
+    "colorMid": "#818CF8"
+  },
+  "data-analysis": {
+    "color": "#0891B2",
+    "colorLight": "#E0F7FA",
+    "colorMid": "#38BDF8"
+  },
+  "ai-tools": {
+    "color": "#D97706",
+    "colorLight": "#FEF3C7",
+    "colorMid": "#FCD34D"
+  },
+  "ai-ml": {
+    "color": "#2563EB",
+    "colorLight": "#EFF6FF",
+    "colorMid": "#60A5FA"
+  },
+  "dsa": {
+    "color": "#EA580C",
+    "colorLight": "#FFF0E8",
+    "colorMid": "#FB923C"
+  },
+  "reactjs-ai-integration": {
+    "color": "#06B6D4",
+    "colorLight": "#E0F9FC",
+    "colorMid": "#22D3EE"
+  },
+  "backend-nodejs-ai-integration": {
+    "color": "#16A34A",
+    "colorLight": "#DCFCE7",
+    "colorMid": "#4ADE80"
+  },
+  "backend-django-ai-integration": {
+    "color": "#0D9488",
+    "colorLight": "#CCFBF1",
+    "colorMid": "#2DD4BF"
+  },
+  "software-testing-ai-integration": {
+    "color": "#1D4ED8",
+    "colorLight": "#EFF6FF",
+    "colorMid": "#93C5FD"
+  }
+}
