@@ -5,6 +5,7 @@ export const homeNavLinks = [
   { label: "AI School", href: "/ai-school" },
   { label: "Innovations", href: "/innovations" },
   { label: "AI Tools", href: "/tools" },
+  { label: "Learning", href: "/learning" },
   { label: "Blog", href: "/blog" },
   { label: "Mission", href: "/mission" },
 ] as const;

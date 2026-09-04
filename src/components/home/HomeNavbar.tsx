@@ -53,7 +53,7 @@ export function HomeNavbar() {
         {/* Mobile View Apply Now button (< md) */}
         <Link
           href="/requestcallback?source=Navbar - Apply Now"
-          className={`absolute right-14 top-2.5 grid h-[32.13px] w-[65.26px] place-items-center rounded-[24.19px] hover:text-Vivid_Tangelo sm:rounded-[34.73px] bg-white bg-opacity-60 text-[12.1px] font-bold opacity-90 backdrop-blur transition-all duration-300 sm:h-[47.16px] sm:w-[94.31px] sm:text-[17.37px] lg:text-[23.69px] md:hidden ${open_sans.className}`}
+          className={`absolute right-0 top-2.5 grid h-[32.13px] w-[65.26px] place-items-center rounded-[24.19px] hover:text-Vivid_Tangelo sm:rounded-[34.73px] bg-white bg-opacity-60 text-[12.1px] font-bold opacity-90 backdrop-blur transition-all duration-300 sm:h-[47.16px] sm:w-[94.31px] sm:text-[17.37px] lg:text-[23.69px] md:hidden ${open_sans.className}`}
         >
           <p>Join EcoSystem</p>
         </Link>
