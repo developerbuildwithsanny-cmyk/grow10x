@@ -1,9 +1,12 @@
 export const homeNavLinks = [
+  { label: "Home", href: "/" },
   { label: "Programs", href: "#programs" },
-  { label: "Why Us", href: "#why-us" },
-  { label: "Path", href: "#path" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "FAQs", href: "#faqs" },
+  { label: "About", href: "/about" },
+  { label: "AI School", href: "/ai-school" },
+  { label: "Innovations", href: "/innovations" },
+  { label: "AI Tools", href: "/tools" },
+  { label: "Blog", href: "/blog" },
+  { label: "Mission", href: "/mission" },
 ] as const;
 
 export const homeContact = {
@@ -12,7 +15,7 @@ export const homeContact = {
 };
 
 export const homeStats = [
-  { value: "10,000+", label: "STUDENTS GUIDED" },
+  { value: "1000+", label: "STUDENTS GUIDED" },
   { value: "500+", label: "PROJECTS BUILT" },
   { value: "50+", label: "INDUSTRY COURSES" },
   { value: "95%", label: "JOB PLACEMENT RATE" },
@@ -55,8 +58,8 @@ export const homeFooterLegal = [
 ] as const;
 
 export const homeFooterSocials = [
-  { name: "LinkedIn", href: "https://www.linkedin.com" },
-  { name: "Twitter", href: "https://x.com" },
-  { name: "YouTube", href: "https://www.youtube.com" },
-  { name: "GitHub", href: "https://github.com" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/company/10xaischool/" },
+  { name: "Gmail", href: "mailto:10xaischool@gmail.com" },
+  { name: "YouTube", href: "https://www.youtube.com/@Buildwithsannyai" },
+  { name: "Instagram", href: "https://www.instagram.com/10xaischool/" },
 ] as const;

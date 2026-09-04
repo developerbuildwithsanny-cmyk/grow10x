@@ -1,0 +1,17 @@
+.scroll1 {
+  animation: scrollX 15s linear infinite;
+}
+.scroll2 {
+  animation: scrollX 15s linear infinite reverse;
+}
+.scroll3 {
+  animation: scrollX 15s linear infinite;
+}
+@keyframes scrollX {
+  from {
+    left: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

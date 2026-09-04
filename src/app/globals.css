@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Outfit:wght@700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  --font-space-grotesk: 'Space Grotesk', sans-serif;
-  --font-inter: 'Inter', sans-serif;
-  --font-jetbrains-mono: 'JetBrains Mono', monospace;
+  /* Who Are You Becoming modal – PathCard variables */
+  --card-gradient-from: #f9c4b2;
+  --card-gradient-to: #e87a6a;
+  --cta: #e8604c;
+  --cta-hover: #c94f3a;
+  --cta-foreground: #ffffff;
+  --font-league-spartan: var(--font-league-spartan, 'League Spartan', sans-serif);
+  --font-open-sans: var(--font-open-sans, 'Open Sans', sans-serif);
+  --font-inter: var(--font-inter, 'Inter', sans-serif);
+  --font-poppins: var(--font-poppins, 'Poppins', sans-serif);
   --color-black: #000000;
   --color-green: #00e676;
   --color-white: #ffffff;
@@ -42,11 +48,32 @@
   --color-brand-orange: #ff8041;
   --color-nav-muted: #4a4a4a;
   --color-nav-border: #e2e8f0;
+  --color-slide: #111111;
+  --color-slide-orange: #FF8541;
+  --color-slide-gray-node: #3a3a3a;
+  --color-slide-subtext: #cccccc;
+  --color-slide-dashed: #555555;
   --font-outfit-family: "Outfit", sans-serif;
   --font-figtree-family: "Figtree", sans-serif;
+  --font-newsreader-family: "Newsreader", "PT Serif", Georgia, serif;
+  --landing-cream: #faf6ee;
+  --landing-border: #eadcc9;
+  --landing-accent: #e64a19;
+  --landing-ink: #161412;
+  --landing-muted: #6e665d;
+  --landing-paper: #fdfbf7;
+  --landing-charcoal: #1e1b18;
+  --landing-students: #f5efe6;
+  --landing-blush: #faece5;
 }
 
 @theme inline {
+  --color-Vivid_Tangelo: #f36f21;
+  --color-card-gradient-from: var(--card-gradient-from);
+  --color-card-gradient-to: var(--card-gradient-to);
+  --color-cta: var(--cta);
+  --color-cta-hover: var(--cta-hover);
+  --color-cta-foreground: var(--cta-foreground);
   --color-black: var(--color-black);
   --color-green: var(--color-green);
   --color-white: var(--color-white);
@@ -84,12 +111,36 @@
   --color-brand-orange: var(--color-brand-orange);
   --color-nav-muted: var(--color-nav-muted);
   --color-nav-border: var(--color-nav-border);
-
-  --font-heading: var(--font-space-grotesk);
-  --font-body: var(--font-inter);
+  --color-slide: var(--color-slide);
+  --color-slide-orange: var(--color-slide-orange);
+  --color-slide-gray-node: var(--color-slide-gray-node);
+  --color-slide-subtext: var(--color-slide-subtext);
+  --color-slide-dashed: var(--color-slide-dashed);
+  --color-brand: #e8771e;
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+  --font-heading: var(--font-league-spartan), 'League Spartan', sans-serif;
+  --font-body: var(--font-open-sans), 'Open Sans', sans-serif;
+  --font-spartan: var(--font-league-spartan), 'League Spartan', sans-serif;
+  --font-open-sans: var(--font-open-sans), 'Open Sans', sans-serif;
+  --font-inter: var(--font-inter), 'Inter', sans-serif;
+  --font-poppins: var(--font-poppins), 'Poppins', sans-serif;
+  --font-button: var(--font-inter), 'Inter', sans-serif;
+  --font-accent: var(--font-poppins), 'Poppins', sans-serif;
   --font-mono: var(--font-jetbrains-mono);
   --font-outfit: var(--font-outfit-family);
   --font-figtree: var(--font-figtree-family);
+  --font-newsreader: var(--font-newsreader-family);
+  --font-serif: "PT Serif", Georgia, serif;
+  --color-landing-cream: var(--landing-cream);
+  --color-landing-border: var(--landing-border);
+  --color-landing-accent: var(--landing-accent);
+  --color-landing-ink: var(--landing-ink);
+  --color-landing-muted: var(--landing-muted);
+  --color-landing-paper: var(--landing-paper);
+  --color-landing-charcoal: var(--landing-charcoal);
+  --color-landing-students: var(--landing-students);
+  --color-landing-blush: var(--landing-blush);
 
   --shadow-card: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
   --shadow-sm: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
@@ -99,7 +150,7 @@
 body {
   background: var(--color-black);
   color: var(--color-white);
-  font-family: var(--font-inter), system-ui, sans-serif;
+  font-family: var(--font-open-sans), var(--font-inter), system-ui, sans-serif;
 }
 
 @keyframes hero-line-in {

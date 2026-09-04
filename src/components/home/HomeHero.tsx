@@ -1,9 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const aiTools = [
+  { name: "ChatGPT", icon: "/images/tools/chatgpt.svg" },
+  { name: "Claude", icon: "/images/tools/claude.svg" },
+  { name: "Cursor", icon: "/images/tools/cursor.svg" },
+  { name: "Perplexity", icon: "/images/tools/perplexity.svg" },
+  { name: "Midjourney", icon: "/images/tools/midjourney.svg" },
+  { name: "n8n", icon: "/images/tools/n8n.svg" },
+  { name: "Make", icon: "/images/tools/make.svg" },
+  { name: "Bolt", icon: "/images/tools/bolt.svg" },
+];
+
 export function HomeHero() {
   return (
-    <section className="relative flex min-h-[560px] items-center overflow-hidden lg:h-[700px]">
+    <section className="relative flex min-h-[620px] lg:h-[calc(100vh-68px)] items-center overflow-hidden py-12 lg:py-0">
       <Image
         src="/home_page_images/hero-background.png"
         alt=""
@@ -11,37 +22,37 @@ export function HomeHero() {
         priority
         className="object-cover object-center"
       />
-      <div className="absolute inset-0 bg-black/55" aria-hidden />
+      <div className="absolute inset-0 bg-black/60" aria-hidden />
 
-      <div className="relative mx-auto w-full max-w-[1440px] px-5 py-16 sm:px-8 lg:px-20">
-        <div className="flex max-w-[760px] flex-col gap-8">
-          <div className="inline-flex w-fit rounded-full border border-white/27 bg-white/13 px-4 py-1.5">
+      <div className="relative mx-auto flex w-full max-w-[1440px] flex-col items-center justify-center text-center px-5 py-6 sm:px-8 lg:px-20">
+        <div className="mx-auto flex max-w-[860px] flex-col items-center justify-center text-center gap-6 sm:gap-7">
+          <div className="inline-flex w-fit mx-auto rounded-full border border-white/27 bg-white/13 px-4 py-1.5">
             <p className="font-outfit text-sm font-bold uppercase text-white">
-              🇮🇳 EMPOWERING INDIA&apos;S NEXT 10,000 TECH LEADERS
+              🇮🇳 EMPOWERING INDIA&apos;S NEXT 1000 TECH LEADERS
             </p>
           </div>
 
-          <div className="flex flex-col gap-4">
-            <h1 className="font-outfit text-4xl font-black leading-[1.15] text-white sm:text-5xl lg:text-[56px]">
+          <div className="flex flex-col items-center text-center gap-3">
+            <h1 className="font-outfit text-4xl font-black leading-[1.15] bg-gradient-to-r from-[#e84975] to-[#ff8541] bg-clip-text text-transparent text-center sm:text-5xl lg:text-[56px]">
               Build Your Future with AI &amp; Coding
             </h1>
-            <p className="max-w-[720px] font-figtree text-lg leading-[1.5] text-white/85 sm:text-xl">
+            <p className="mx-auto max-w-[720px] font-figtree text-lg leading-[1.5] text-white/85 text-center sm:text-xl">
               India&apos;s premium live-cohort coding bootcamp. Master
               industry-grade Full-Stack, AI integration, and core computational
-              thinking alongside 10,000 aspiring software engineers.
+              thinking alongside 1000 aspiring software engineers.
             </p>
           </div>
 
-          <div className="flex flex-wrap items-center gap-4">
+          <div className="flex flex-wrap items-center justify-center gap-4 mx-auto">
             <Link
               href="/requestcallback?source=Hero - Start Learning Free"
-              className="rounded-[30px] bg-brand px-8 py-4 font-outfit text-base font-bold text-white transition-opacity hover:opacity-90"
+              className="rounded-[30px] bg-gradient-to-r from-[#e84975] to-[#ff8541] px-8 py-3.5 font-outfit text-base font-bold text-white transition-opacity hover:opacity-90 shadow-lg"
             >
-              Start Learning Free
+              Start Learning
             </Link>
             <a
               href="#programs"
-              className="inline-flex items-center gap-2 font-outfit text-base font-bold text-white"
+              className="inline-flex items-center gap-2 font-outfit text-base font-bold text-white transition-opacity hover:opacity-80"
             >
               <svg
                 width="20"
@@ -59,6 +70,35 @@ export function HomeHero() {
               </svg>
               Watch Program Tour
             </a>
+          </div>
+
+          {/* AI Tools Icon Set Section */}
+          <div className="mt-2 sm:mt-4 flex flex-col items-center justify-center text-center gap-3.5 mx-auto">
+            <div className="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3.5">
+              {aiTools.map((tool) => (
+                <div
+                  key={tool.name}
+                  className="group flex flex-col items-center gap-1.5 transition-transform hover:-translate-y-1"
+                >
+                  <div className="flex size-11 sm:size-13 items-center justify-center rounded-xl sm:rounded-2xl bg-white/95 p-2 shadow-md backdrop-blur transition-all group-hover:bg-white group-hover:shadow-lg">
+                    <Image
+                      src={tool.icon}
+                      alt={tool.name}
+                      width={30}
+                      height={30}
+                      className="size-6 sm:size-7 object-contain"
+                    />
+                  </div>
+                  <span className="text-[11px] sm:text-xs font-semibold tracking-tight text-white/90">
+                    {tool.name}
+                  </span>
+                </div>
+              ))}
+            </div>
+
+            <p className="font-outfit text-lg sm:text-xl font-extrabold tracking-wide text-white text-center">
+              Build the brand, Land the job.
+            </p>
           </div>
         </div>
       </div>
