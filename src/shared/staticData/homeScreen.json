@@ -1,0 +1,360 @@
+{
+  "successStories": [
+    {
+      "name": "Sai Krishna",
+      "role": "Full Stack Developer",
+      "companyLogo": "/succesStories_images/Mckinley.png",
+      "successStory": "Joining 10XAISchool transformed me into a skilled React developer, fulfilling my dream. Thanks to their training along with mentor sessions and doubt clearance, I gained valuable knowledge and expertise",
+      "package": "7.5 L",
+      "Img": "/succesStories_images/Screenshot_20231204_100551 - Sai Krishna 2.png",
+      "status": "First Job"
+    },
+    {
+      "name": "Snehalatha",
+      "role": "Software Engineer",
+      "companyLogo": "/succesStories_images/aggne.png",
+      "successStory": "10XAISchool transformed me into a confident girl and improved my communication skills. Now, I know a lot about building websites and apps. I'm thankful for the straightforward lessons that made coding easier for me.",
+      "package": "4.5 L",
+      "Img": "/succesStories_images/Remala Jaya sai snehalatha - jaysai snehalatha 1.png",
+      "status": "First Job"
+    },
+    {
+      "name": "Amrutha",
+      "role": "Software Engineer",
+      "companyLogo": "/succesStories_images/aggne.png",
+      "successStory": "I got better at talking and coding. Now, I know how to make the front end of websites. This helped me a lot and made me better overall.",
+      "package": "4.5 L",
+      "Img": "/succesStories_images/DSC_8595 1.png",
+      "status": "First Job"
+    },
+    {
+      "name": "Yashwanth",
+      "role": "Full Stack Developer",
+      "companyLogo": "/succesStories_images/doctorite .png",
+      "successStory": "The mock interviews are really helpful. I always get positive feedback, and they prepare me well for real interviews. Thanks to these mocks, I feel confident and got placed in a company.",
+      "package": "4.2 L",
+      "Img": "/succesStories_images/Sai Krishna.png",
+      "status": "First Job"
+    },
+    {
+      "name": "Jahnavi",
+      "role": "Back End Developer",
+      "companyLogo": "/succesStories_images/Dhan Ai.png",
+      "successStory": "Thanks to 10XAISchool, I've become a skilled front-end developer. Their training and projects improved my problem-solving abilities, providing practical experience. They played a crucial role in shaping my confidence.",
+      "package": "4 L",
+      "Img": "/succesStories_images/jhanvi.png",
+      "status": "First Job"
+    },
+    {
+      "name": "Ambika",
+      "role": "Full Stack Developer",
+      "companyLogo": "/succesStories_images/jackus.png",
+      "successStory": "Internship was key in training as it involved real projects, offering hands-on experience and valuable knowledge. The practical learning gained during this phase was immensely helpful for personal and professional growth.",
+      "package": "4 L",
+      "Img": "/succesStories_images/ambika.png",
+      "status": "First Job"
+    }
+  ],
+  "curriculum": [
+    {
+      "month": "Month 1 & 1/2",
+      "overview": "Master HTML, CSS, and Bootstrap for responsive web design, while learning to manage code with GitHub and deploy on AWS. Improve communication and aptitude skills, complete a mini project, participate in a mock interview, attend coding workshops, and experience a sample drive for real-world placement preparation.",
+      "keyPoints": [
+        "HTML/CSS",
+        "BOOT STRAP",
+        "GITHUB / AWS",
+        "COMMUNICATION/ APTITUDE",
+        "1 MINI PROJECT",
+        "MOCK INTERVIEW - 1",
+        "SAMPLE DRIVE",
+        "CODING WORKSHOPS"
+      ]
+    },
+    {
+      "month": "Month 2 & 3",
+      "overview": "Build proficiency in JavaScript and SQL for database management, while working on two mini projects to enhance practical skills. Improve problem-solving abilities through coding workshops and prepare for placements with second mock interviews.",
+      "keyPoints": [
+        "JAVA SCRIPTS",
+        "SQL [DATA BASE]",
+        "2 MINI PROJECTS",
+        "CODING WORKSHOPS",
+        "PROBLEM SOLVING",
+        "MOCK INTERVIEW - 2"
+      ]
+    },
+    {
+      "month": "Month 4 & 5",
+      "overview": "Focus on creating responsive web designs that adapt to different devices. Learn to develop fluid grids, use media queries, and optimize images. Implement mobile-first design strategies and understand progressive enhancement for a better user experience.",
+      "keyPoints": [
+        "REACT JS",
+        "NODE JS",
+        "REDUX",
+        "1 MAJOR PROJECT",
+        "CODING WORKSHOPS",
+        "APTITUDE",
+        "MOCK INTERVIEW - 3"
+      ]
+    },
+    {
+      "month": "Month 6 & 7",
+      "overview": "Develop expertise in React.js, Node.js, and Redux while working on a major project to demonstrate your skills. Enhance problem-solving through coding workshops, improve aptitude, and prepare for placements with three mock interviews.",
+      "keyPoints": [
+        "PROJECT REVIEW",
+        "COMMUNICATION PROBLEM SOLVING APTITUDE",
+        "FINAL-MOCK INTERVIEW"
+      ]
+    },
+    {
+      "month": "Placement",
+      "overview": "Enhance your profile to align with job requirements for smoother screening and better visibility. Prepare for stand-up calls and live interviews by refining your skills and practicing relevant scenarios.",
+      "keyPoints": [
+        "PROFILE UPDATE",
+        "Screening & Stand-Up Calls",
+        "LIVE INTERVIEWS"
+      ]
+    },
+    {
+      "month": "Bonus",
+      "overview": "Bonus pre-recording sessions include comprehensive content on Java, Python, SQL, AWS, Node.js, and React, along with focused training on problem-solving and aptitude to strengthen technical and analytical skills for placements.",
+      "keyPoints": [
+        "JAVA",
+        "PYHTON",
+        "SQL",
+        "AWS",
+        "NODE JS",
+        "REACT",
+        "PROBLEM SOLVING",
+        "APTITUDE"
+      ]
+    }
+  ],
+  "HiringPartnersData": {
+    "primary": [
+      "/HiringPartners_images/primary/image1.png",
+      "/HiringPartners_images/primary/image2.png",
+      "/HiringPartners_images/primary/image3.png",
+      "/HiringPartners_images/primary/image4.png",
+      "/HiringPartners_images/primary/image5.png",
+      "/HiringPartners_images/primary/image6.png",
+      "/HiringPartners_images/primary/image7.png",
+      "/HiringPartners_images/primary/image8.png",
+      "/HiringPartners_images/primary/image9.png",
+      "/HiringPartners_images/primary/image10.png",
+      "/HiringPartners_images/primary/image11.png",
+      "/HiringPartners_images/primary/image12.png"
+    ],
+    "secondary": [
+      "/HiringPartners_images/secondary/image1.png",
+      "/HiringPartners_images/secondary/image2.png",
+      "/HiringPartners_images/secondary/image3.png",
+      "/HiringPartners_images/secondary/image4.png",
+      "/HiringPartners_images/secondary/image5.png",
+      "/HiringPartners_images/secondary/image6.png",
+      "/HiringPartners_images/secondary/image7.png",
+      "/HiringPartners_images/secondary/image8.png",
+      "/HiringPartners_images/secondary/image9.png",
+      "/HiringPartners_images/secondary/image10.png",
+      "/HiringPartners_images/secondary/image11.png",
+      "/HiringPartners_images/secondary/image12.png"
+    ],
+    "teritory": [
+      "/HiringPartners_images/teritory/image1.png",
+      "/HiringPartners_images/teritory/image2.png",
+      "/HiringPartners_images/teritory/image3.png",
+      "/HiringPartners_images/teritory/image4.png",
+      "/HiringPartners_images/teritory/image5.png",
+      "/HiringPartners_images/teritory/image6.png",
+      "/HiringPartners_images/teritory/image7.png",
+      "/HiringPartners_images/teritory/image8.png",
+      "/HiringPartners_images/teritory/image9.png",
+      "/HiringPartners_images/teritory/image10.png",
+      "/HiringPartners_images/teritory/image11.png",
+      "/HiringPartners_images/teritory/image12.png"
+    ],
+    "quadra": [
+      "/HiringPartners_images/quadra/image1.png",
+      "/HiringPartners_images/quadra/image2.png",
+      "/HiringPartners_images/quadra/image3.png",
+      "/HiringPartners_images/quadra/image4.png",
+      "/HiringPartners_images/quadra/image5.png",
+      "/HiringPartners_images/quadra/image6.png",
+      "/HiringPartners_images/quadra/image7.png",
+      "/HiringPartners_images/quadra/image8.png",
+      "/HiringPartners_images/quadra/image9.png",
+      "/HiringPartners_images/quadra/image10.png",
+      "/HiringPartners_images/quadra/image11.png",
+      "/HiringPartners_images/quadra/image12.png"
+    ],
+    "penta": [
+      "/HiringPartners_images/penta/image1.png",
+      "/HiringPartners_images/penta/image2.png",
+      "/HiringPartners_images/penta/image3.png",
+      "/HiringPartners_images/penta/image4.png",
+      "/HiringPartners_images/penta/image5.png",
+      "/HiringPartners_images/penta/image6.png",
+      "/HiringPartners_images/penta/image7.png",
+      "/HiringPartners_images/penta/image8.png",
+      "/HiringPartners_images/penta/image9.png",
+      "/HiringPartners_images/penta/image10.png",
+      "/HiringPartners_images/penta/image11.png",
+      "/HiringPartners_images/penta/image12.png"
+    ]
+  },
+  "QuoteCardData": [
+    {
+      "text": "Exceptional trainers, practical learning, and real-time internships set 10XAISchool apart.",
+      "details": "Manoj uppula, mech eng.",
+      "img": "/LandingPageImages/quoteImg-1.png",
+      "batch": "batch 91r - 10k coders",
+      "role": "Software engineer",
+      "company": "/LandingPageImages/RightData.png"
+    },
+    {
+      "text": "The training and support from 10XAISchool transformed my knowledge, leading to 2 placement offers.",
+      "details": "Venu Bandi, E&C eng.",
+      "img": "/LandingPageImages/quoteImg-2.png",
+      "batch": "batch 91r - 10k coders",
+      "role": "Full stack developer",
+      "company": "/LandingPageImages/Enterpi.png"
+    },
+    {
+      "text": "I thank 10XAISchool for making me a confident developer. It's a great place to learn different technologies.",
+      "details": "venkatesh, mech eng.",
+      "img": "/LandingPageImages/quoteImg-3.png",
+      "batch": "batch 91r - 10k coders",
+      "role": "react developer",
+      "company": "/LandingPageImages/Mantra.png"
+    },
+    {
+      "text": "Mentor's dedication ensured confident achievement of goals by overcoming challenges successfully.",
+      "details": "chandana, civil eng.",
+      "img": "/LandingPageImages/quoteImg-4.png",
+      "batch": "batch 91r - 10k coders",
+      "role": "react developer",
+      "company": "/LandingPageImages/EdExpert.png"
+    }
+  ],
+  "learningConcepts": [
+    "HTML, CSS, JavaScript",
+    "Responsive design",
+    "User interface (UI) design, web accessibility",
+    "Version control (Git)",
+    "Browser compatibility",
+    "Front-end frameworks"
+  ],
+  "JourneyContent": [
+    {
+      "title": "Month 1: Foundation Building",
+      "points": [
+        "Structure web content, basic elements for effective webpage development.",
+        "Implementing responsive and visually appealing designs using the Bootstrap",
+        "Version control, collaboration strategies using Git.",
+        "Boosting confidence through effective communication, teamwork"
+      ],
+      "outcome": "Master the foundational skills of HTML, CSS, Git, and Bootstrap, while gaining confidence through communication sessions; culminate the Month with a comprehensive web project and a mock interview, setting the stage for Full Stack success."
+    },
+    {
+      "title": "Month 2: JavaScript Mastery",
+      "points": [
+        "Mastering the fundamentals of JavaScript, including variables, functions, control flow, and DOM manipulation for dynamic web development.",
+        "Database querying and manipulation skills using SQL, enabling effective data management within web applications.",
+        "Enhancing problem-solving abilities through interactive sessions, focusing on algorithmic thinking and logical reasoning"
+      ],
+      "outcome": "Excel in JavaScript and SQL proficiency, sharpen problem-solving skills, and showcase your capabilities through hands-on projects and mock interviews, propelling yourself toward Full Stack expertise"
+    },
+    {
+      "title": "Month 3 : React.js Advancement",
+      "points": [
+        "Mastering the art of building dynamic and responsive user interfaces using React.js, leveraging components and state management",
+        "State management at scale, utilizing Redux to efficiently manage the state of your React applications.",
+        "Integrating HTML, CSS, JavaScript, Redux, and React skills in a mini project, showcasing your ability to create interactive and stateful web applications."
+      ],
+      "outcome": "Master React.js and Redux for dynamic web development, demonstrate proficiency in a multifaceted mini project combining HTML, CSS, JS, Redux, and React, and undergo a comprehensive mock interview"
+    },
+    {
+      "title": "Mastering Redux with Confidence",
+      "points": [
+        "Understand the principles of Redux for centralized state.",
+        "Optimize performance using selectors.",
+        "Develop effective communication skills in a tech environment."
+      ],
+      "outcome": "Apply your knowledge in a hands-on project, demonstrating proficiency in Redux and fostering effective team communication."
+    },
+    {
+      "title": "Nailing Interviews with Finesse",
+      "points": [
+        "Learn strategies for technical and behavioral interview success.",
+        "Craft compelling responses to common interview questions.",
+        "Receive personalized feedback and performance evaluations."
+      ],
+      "outcome": "Perfect your interview performance with hands-on practice, expert feedback, and enhanced communication skills."
+    },
+    {
+      "title": "Placement Readiness Training",
+      "points": [
+        "Craft an impactful and tailored tech resume.",
+        "Showcase expertise, projects, and endorsements.",
+        "Polish interview skills with focused feedback."
+      ],
+      "outcome": " Step confidently into the tech industry with the skills and connections needed for a successful career."
+    }
+  ],
+  "StudentReview": [
+    {
+      "img": "StudentReview_Images/img1.png",
+      "name": "SaI Krishna",
+      "role": "React Developer",
+      "company": "MckinleyRice",
+      "code": "YsG75kW_iqU"
+    },
+    {
+      "img": "StudentReview_Images/img2.png",
+      "name": "Amruta valli",
+      "role": "Software Engineer",
+      "company": "Aggne",
+      "code": "UE_NNZq8xJA"
+    },
+    {
+      "img": "StudentReview_Images/img3.png",
+      "name": "NOMIKA",
+      "role": "React Developer",
+      "company": "PureCode",
+      "code": "ReBYVuhYaJ8"
+    },
+    {
+      "img": "StudentReview_Images/img4.png",
+      "name": "BHAVAYA SRI",
+      "role": "React Developer",
+      "company": "Stic Soft Solutions",
+      "code": "OplUOGAyZLw"
+    },
+    {
+      "img": "StudentReview_Images/img5.png",
+      "name": "PAWAN",
+      "role": "Programmer Analys",
+      "company": "Bilvantis",
+      "code": "RJdJ10C4VZU"
+    },
+    {
+      "img": "StudentReview_Images/img6.png",
+      "name": "sheshu",
+      "role": "Software Engineer",
+      "company": "Ajackus",
+      "code": "Pf6IMjMhyIs"
+    },
+    {
+      "img": "StudentReview_Images/img7.png",
+      "name": "PRASANNA",
+      "role": "Software Engineer",
+      "company": "Right Data",
+      "code": "HK8zuukSYtg"
+    },
+    {
+      "img": "StudentReview_Images/img8.png",
+      "name": "Manoj",
+      "role": "Software Engineer",
+      "company": "Right Data",
+      "code": "kSnOsgebDjc"
+    }
+  ]
+}

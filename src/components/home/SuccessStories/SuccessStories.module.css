@@ -1,0 +1,28 @@
+.bg_image {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 199, 115, 0.3) 0%,
+    rgba(249, 185, 255, 0.15) 50%,
+    rgba(255, 220, 220, 0.05) 75%,
+    #ffffff00 100%
+  );
+}
+.button_bg {
+  background: linear-gradient(90deg, #e84975 0%, #ff8541 100%);
+}
+.animateX {
+  animation: scrollX 25s linear infinite;
+}
+
+.animateX:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scrollX {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
