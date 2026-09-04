@@ -14,8 +14,8 @@ import {
   Sparkles,
   ArrowRight
 } from "lucide-react";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { HomeNavbar } from "@/components/home/HomeNavbar";
+import { HomeFooter } from "@/components/home/HomeFooter";
 import { Container } from "@/components/ui";
 import { submitLead } from "@/app/actions";
 import { cn } from "@/lib/utils";
@@ -390,7 +390,7 @@ function CallbackForm() {
 export default function RequestCallBackPage() {
   return (
     <div className="bg-page-dark min-h-screen text-white flex flex-col justify-between">
-      <Navbar />
+      <HomeNavbar />
 
       <main className="flex-grow py-20 relative overflow-hidden flex items-center">
         {/* Decorative background glows */}
@@ -484,7 +484,7 @@ export default function RequestCallBackPage() {
         </Container>
       </main>
 
-      <Footer />
+      <HomeFooter />
     </div>
   );
 }

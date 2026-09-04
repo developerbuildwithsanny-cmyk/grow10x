@@ -1,5 +1,5 @@
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { HomeNavbar } from "@/components/home/HomeNavbar";
+import { HomeFooter } from "@/components/home/HomeFooter";
 import Careers from "@/components/careers";
 
 export const metadata = {
@@ -11,13 +11,13 @@ export const metadata = {
 export default function CareersPage() {
   return (
     <div className="bg-white min-h-screen text-black font-body">
-      <Navbar />
+      <HomeNavbar />
 
       <main>
         <Careers />
       </main>
 
-      <Footer />
+      <HomeFooter />
     </div>
   );
 }

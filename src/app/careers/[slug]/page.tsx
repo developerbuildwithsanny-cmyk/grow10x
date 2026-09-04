@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import programsData from "@/data/programs.json";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { HomeNavbar } from "@/components/home/HomeNavbar";
+import { HomeFooter } from "@/components/home/HomeFooter";
 import { ProgramHero } from "@/components/careers/ProgramHero";
 import { ToolsTechnologies } from "@/components/careers/ToolsTechnologies";
 import { RoadmapSection } from "@/components/careers/RoadmapSection";
@@ -46,9 +46,7 @@ export default async function ProgramDetailPage({ params }: Props) {
 
   return (
     <div className="bg-white min-h-screen text-black font-body">
-      <div className="bg-black text-white">
-        <Navbar />
-      </div>
+      <HomeNavbar />
 
       <main>
         {/* Hero Section — first section of the program detail page */}
@@ -72,9 +70,7 @@ export default async function ProgramDetailPage({ params }: Props) {
         {/* Future sections will be added here one by one */}
       </main>
 
-      <div className="bg-black text-white">
-        <Footer />
-      </div>
+      <HomeFooter />
     </div>
   );
 }
