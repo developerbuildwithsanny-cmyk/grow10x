@@ -14,8 +14,8 @@ export const homeNavLinks = [
 ] as const;
 
 export const homeContact = {
-  phoneLabel: "Call: +91 99000 10000",
-  phoneHref: "tel:+919900010000",
+  // phoneLabel: "Call: +91 99000 10000",
+  // phoneHref: "tel:+919900010000",
 };
 
 export const homeStats = [

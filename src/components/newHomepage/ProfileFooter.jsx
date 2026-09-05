@@ -81,10 +81,10 @@ export function ProfileFooter() {
       <div className="mx-auto w-full max-w-[1120px] px-4 sm:px-6 md:px-8">
         <div className="mb-3 flex items-baseline justify-between gap-3">
           <p className="font-figtree text-[10px] font-bold uppercase tracking-[0.16em] text-[#f36f21] sm:text-xs">
-            The people behind the work
+            BUILDING THE FUTURE
           </p>
           <p className="hidden font-outfit text-sm font-semibold text-white/70 sm:block">
-            Learn from people who build.
+            Learn from the builders turning ideas into intelligent systems, real products, and real-world impact.
           </p>
         </div>
 
