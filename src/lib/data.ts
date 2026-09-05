@@ -373,7 +373,7 @@ export const missionPillars = [
 
 export const founderNote = {
   name: "Sanny Kumar",
-  role: "Founder, 10xAISchool",
+  role: "Co-Founder, 10xAISchool",
   paragraphs: [
     "When I started my journey in tech, the barriers to entry were massive. You needed a specific degree, access to capital, and connections to the right hubs. AI has completely shattered that paradigm. Today, the only barrier is intent.",
     "However, intent alone isn't enough without direction. I saw too many brilliant minds getting lost in the noise of tutorials, theoretical papers, and overwhelming frameworks. They were consuming AI, but not building with it. That realization birthed 1M AI Builder.",

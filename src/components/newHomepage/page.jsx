@@ -49,26 +49,23 @@ function FounderNote() {
         <p className="font-bold">
           Chaitanya
           <span className="mt-0.5 block text-sm font-medium text-[#6e6252]">
-            AI Engineering and Agentic AI Trainer · Founder, 10xAISchool
+            AI Engineering and Agentic AI Trainer · Co-Founder, 10xAISchool
           </span>
         </p>
       </div>
       <div>
         <p className="mb-5 text-[17px]">
-          {/* College gives you theory and a deadline to clear exams. Industry runs
-          on something else entirely - real tools, real pressure, and problems
-          with no answer key. Almost nobody builds the bridge between the two.
-          So I&apos;m building it. */}
-          College gives you a degree. Industry expects skills. Most students graduate
-          without knowing what comes next. We are building the bridge. Helping students 
-          understand the industry, build the right skills, and become career-ready before 
-          they graduate. From degree to direction.
-
+          College gives you a degree. Industry expects skills.
+          But most students graduate without knowing what to learn, which roles to apply for, 
+          or how to build a career. <b>We are building the bridge</b>. Our goal is simple: help 
+          students understand the industry, build the right skills, and become career-ready before they graduate.
 
 
         </p>
         <p className="mb-5 text-[17px]">
-         This is why we created this 10xAISchool.
+         <i>From degree to direction. From learning to building.
+        <br/>This is why 10xAISchool exists.
+         </i>
         </p>
         <p className="mb-5 text-[17px] text-[#6e6252]">
          For Full explaination, Watch 👇 this reel.     
