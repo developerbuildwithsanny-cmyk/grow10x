@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Navbar } from "@/components/Navbar";
+import { HomeNavbar } from "@/components/home/HomeNavbar";
 import { LearningPageContent } from "@/components/LearningPageContent";
 import { Footer } from "@/components/Footer";
 import { HomeNavbar } from "@/components/home/HomeNavbar";
@@ -20,7 +20,7 @@ export default function LearningPage() {
       <main>
         <LearningPageContent />
       </main>
-      <Footer />
+      <HomeFooter />
     </>
   );
 }

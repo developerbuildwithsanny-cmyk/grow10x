@@ -17,7 +17,7 @@ export default function MissionPage() {
       <main>
         <MissionPageContent />
       </main>
-      <Footer />
+      <HomeFooter />
     </>
   );
 }

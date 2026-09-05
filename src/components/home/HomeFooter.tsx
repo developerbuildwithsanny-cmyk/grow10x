@@ -117,9 +117,9 @@ export function HomeFooter() {
         <div className="flex flex-col gap-4 pt-2">
           <div className="h-px w-full bg-white/10" />
           <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-center">
-            <p className="font-figtree text-[13px] text-white/50">
+            {/* <p className="font-figtree text-[13px] text-white/50">
               © 2026 10xAISchool Technology Private Limited. All rights reserved.
-            </p>
+            </p> */}
             <div className="flex flex-wrap gap-6">
               {homeFooterLegal.map((link) => (
                 <Link

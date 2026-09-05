@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Navbar } from "@/components/Navbar";
+import { HomeNavbar } from "@/components/home/HomeNavbar";
 import { InnovationsPageContent } from "@/components/InnovationsPageContent";
 import { Footer } from "@/components/Footer";
 import { HomeNavbar } from "@/components/home/HomeNavbar";
@@ -17,7 +17,7 @@ export default function InnovationsPage() {
       <main>
         <InnovationsPageContent />
       </main>
-      <Footer />
+      <HomeFooter />
     </>
   );
 }
