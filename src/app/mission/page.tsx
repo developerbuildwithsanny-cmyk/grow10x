@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { MissionPageContent } from "@/components/MissionPageContent";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { HomeNavbar } from "@/components/home/HomeNavbar";
 
 export const metadata: Metadata = {
   title: "Mission — 10xAISchool",
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
 export default function MissionPage() {
   return (
     <>
-      <Navbar />
+      <HomeNavbar />
       <main>
         <MissionPageContent />
       </main>

@@ -1,13 +1,16 @@
 export const homeNavLinks = [
-  { label: "Home", href: "/" },
-  { label: "Programs", href: "#programs" },
-  { label: "About", href: "/about" },
-  { label: "AI School", href: "/ai-school" },
-  { label: "Innovations", href: "/innovations" },
-  { label: "AI Tools", href: "/tools" },
-  { label: "Learning", href: "/learning" },
-  { label: "Blog", href: "/blog" },
-  { label: "Mission", href: "/mission" },
+  // { label: "Home", href: "/" },
+  // { label: "Programs", href: "#programs" },
+  // { label: "About", href: "/about" },
+  { label: "The System", href: "/#job-tracks" }, // Get a Jobs
+  { label: "Build a business", href: "/#founder-track" },
+  { label:"Why this exists", href: "/#about"},
+  // { label: "AI School", href: "/learning" },
+  // { label: "Innovations", href: "/innovations" },
+  // { label: "AI Tools", href: "/tools" },
+  // { label: "Learning", href: "/learning" },
+  // { label: "Blog", href: "/blog" },
+  // { label: "Mission", href: "/mission" },
 ] as const;
 
 export const homeContact = {

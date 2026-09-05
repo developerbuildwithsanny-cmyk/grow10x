@@ -1,4 +1,11 @@
-import { League_Spartan, Open_Sans, Inter, Poppins } from "next/font/google";
+import { Inter, League_Spartan, Manrope, Open_Sans, Poppins } from "next/font/google";
+
+export const manrope = Manrope({
+  weight: ["300", "400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+  variable: "--font-manrope",
+  display: "swap",
+});
 
 export const leagueSpartan = League_Spartan({
   subsets: ["latin"],

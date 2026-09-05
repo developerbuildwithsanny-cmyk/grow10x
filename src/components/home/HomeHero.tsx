@@ -1,104 +1,80 @@
 import Image from "next/image";
 import Link from "next/link";
+import {
+  ArrowRight,
+  BriefcaseBusiness,
+  GraduationCap,
+  Users,
+  UsersRound,
+} from "lucide-react";
 
-const aiTools = [
-  { name: "ChatGPT", icon: "/images/tools/chatgpt.svg" },
-  { name: "Claude", icon: "/images/tools/claude.svg" },
-  { name: "Cursor", icon: "/images/tools/cursor.svg" },
-  { name: "Perplexity", icon: "/images/tools/perplexity.svg" },
-  { name: "Midjourney", icon: "/images/tools/midjourney.svg" },
-  { name: "n8n", icon: "/images/tools/n8n.svg" },
-  { name: "Make", icon: "/images/tools/make.svg" },
-  { name: "Bolt", icon: "/images/tools/bolt.svg" },
+const proofPoints = [
+  { value: "10K+", label: "Learners & Growing", icon: Users },
+  { value: "Real Skills", label: "Industry Relevant", icon: GraduationCap },
+  { value: "Career Support", label: "From Learning to Earning", icon: BriefcaseBusiness },
+  { value: "Like-Minded Community", label: "Learn. Build. Grow Together.", icon: UsersRound },
 ];
 
 export function HomeHero() {
   return (
-    <section className="relative flex min-h-[620px] lg:h-[calc(100vh-68px)] items-center overflow-hidden py-12 lg:py-0">
+    <section className="relative flex min-h-[620px] items-center overflow-hidden py-16 sm:min-h-[650px] lg:min-h-[calc(100vh-68px)] lg:py-0">
       <Image
         src="/home_page_images/hero-background.png"
-        alt=""
+        alt="AI engineers collaborating in a modern workspace"
         fill
         priority
         className="object-cover object-center"
       />
-      <div className="absolute inset-0 bg-black/60" aria-hidden />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(4,7,8,.94)_0%,rgba(4,7,8,.82)_38%,rgba(4,7,8,.35)_100%)]" aria-hidden />
 
-      <div className="relative mx-auto flex w-full max-w-[1440px] flex-col items-center justify-center text-center px-5 py-6 sm:px-8 lg:px-20">
-        <div className="mx-auto flex max-w-[860px] flex-col items-center justify-center text-center gap-6 sm:gap-7">
-          <div className="inline-flex w-fit mx-auto rounded-full border border-white/27 bg-white/13 px-4 py-1.5">
-            <p className="font-outfit text-sm font-bold uppercase text-white">
-              🇮🇳 EMPOWERING INDIA&apos;S NEXT 1000 TECH LEADERS
+      <div className="relative mx-auto flex w-full max-w-[1440px] items-center px-5 py-8 sm:px-8 lg:px-20">
+        <div className="max-w-[690px]">
+          <div className="mb-5 inline-flex rounded-full border border-[#f36f21]/70 bg-black/25 px-4 py-2">
+            <p className="font-figtree text-sm font-semibold text-white sm:text-base">
+              🚀 India&apos;s AI Builders Community
             </p>
           </div>
 
-          <div className="flex flex-col items-center text-center gap-3">
-            <h1 className="font-outfit text-4xl font-black leading-[1.15] bg-gradient-to-r from-[#e84975] to-[#ff8541] bg-clip-text text-transparent text-center sm:text-5xl lg:text-[56px]">
-              Build Your Future with AI &amp; Coding
+          <div className="flex flex-col gap-4">
+            <h1 className="font-outfit text-4xl font-black leading-[1.02] tracking-tight text-white sm:text-6xl lg:text-[64px]">
+              Build Real AI Skills.
+              <br />
+              Get Job-Ready.
+              <br />
+              <span className="text-[#ff7135]">Grow Your Career.</span>
             </h1>
-            <p className="mx-auto max-w-[720px] font-figtree text-lg leading-[1.5] text-white/85 text-center sm:text-xl">
-              India&apos;s premium live-cohort coding bootcamp. Master
-              industry-grade Full-Stack, AI integration, and core computational
-              thinking alongside 1000 aspiring software engineers.
+            <p className="max-w-[620px] font-figtree text-base leading-relaxed text-white/80 sm:text-lg">
+              Learn with real engineers, build real projects, master job-hunting
+              skills, and grow your personal brand with a community of ambitious
+              builders.
             </p>
           </div>
 
-          <div className="flex flex-wrap items-center justify-center gap-4 mx-auto">
+          <div className="mt-7 flex flex-wrap gap-3">
             <Link
               href="/requestcallback?source=Hero - Start Learning Free"
-              className="rounded-[30px] bg-gradient-to-r from-[#e84975] to-[#ff8541] px-8 py-3.5 font-outfit text-base font-bold text-white transition-opacity hover:opacity-90 shadow-lg"
+              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#ed305d] to-[#ff8541] px-7 py-3.5 font-outfit text-base font-bold text-white shadow-lg transition-transform hover:-translate-y-0.5"
             >
-              Start Learning
+              Explore Programs <ArrowRight size={18} />
             </Link>
-            <a
-              href="#programs"
-              className="inline-flex items-center gap-2 font-outfit text-base font-bold text-white transition-opacity hover:opacity-80"
+            <Link
+              href="/requestcallback?source=Hero - Join Community"
+              className="inline-flex items-center rounded-full border border-[#ff7135] px-7 py-3.5 font-outfit text-base font-bold text-white transition-colors hover:bg-[#ff7135]/15"
             >
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                aria-hidden
-              >
-                <path
-                  d="M4.39011 3.33193C4.24323 3.58574 4.16593 3.87381 4.16602 4.16705V15.8329C4.16593 16.1262 4.24323 16.4143 4.39011 16.6681C4.537 16.9219 4.74826 17.1325 5.00258 17.2785C5.25689 17.4246 5.54525 17.501 5.83855 17.5C6.13184 17.499 6.41967 17.4206 6.67299 17.2729L16.6742 11.4399C16.9263 11.2931 17.1354 11.0827 17.2807 10.8297C17.4259 10.5768 17.5023 10.2901 17.502 9.99845C17.5018 9.70677 17.4249 9.42026 17.2792 9.16756C17.1335 8.91486 16.9241 8.70482 16.6717 8.55843L6.67299 2.72715C6.41967 2.57935 6.13184 2.50101 5.83855 2.50001C5.54525 2.49901 5.25689 2.57541 5.00258 2.72148C4.74826 2.86754 4.537 3.07812 4.39011 3.33193Z"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-              </svg>
-              Watch Program Tour
-            </a>
+              Join the Community
+            </Link>
           </div>
 
-          {/* AI Tools Icon Set Section */}
-          <div className="mt-2 sm:mt-4 flex flex-col items-center justify-center text-center gap-3.5 mx-auto">
-            <div className="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3.5">
-              {aiTools.map((tool) => (
-                <div
-                  key={tool.name}
-                  className="group flex flex-col items-center gap-1.5 transition-transform hover:-translate-y-1"
-                >
-                  <div className="flex size-11 sm:size-13 items-center justify-center rounded-xl sm:rounded-2xl bg-white/95 p-2 shadow-md backdrop-blur transition-all group-hover:bg-white group-hover:shadow-lg">
-                    <Image
-                      src={tool.icon}
-                      alt={tool.name}
-                      width={30}
-                      height={30}
-                      className="size-6 sm:size-7 object-contain"
-                    />
-                  </div>
-                  <span className="text-[11px] sm:text-xs font-semibold tracking-tight text-white/90">
-                    {tool.name}
-                  </span>
+          <div className="mt-12 grid grid-cols-2 gap-x-5 gap-y-6 border-t border-white/20 pt-6 sm:grid-cols-4 sm:gap-6">
+            {proofPoints.map(({ value, label, icon: Icon }) => (
+              <div key={value} className="flex items-start gap-2 text-white">
+                <Icon className="mt-0.5 shrink-0 text-[#ff7135]" size={25} />
+                <div>
+                  <p className="font-outfit text-sm font-bold sm:text-base">{value}</p>
+                  <p className="font-figtree text-xs leading-tight text-white/65">{label}</p>
                 </div>
-              ))}
-            </div>
-
-            <p className="font-outfit text-lg sm:text-xl font-extrabold tracking-wide text-white text-center">
-              Build the brand, Land the job.
-            </p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
