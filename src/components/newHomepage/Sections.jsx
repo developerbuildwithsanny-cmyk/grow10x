@@ -27,8 +27,8 @@ export function HeroSection() {
         </p>
         <div className="flex flex-wrap gap-4">
           <a
-            href="https://forms.gle/4wVJqgEHyTF5TTF56"
-            target="_blank"
+            href="/requestcallback?source=Homepage - Join Community"
+            // target="_blank"
             rel="noreferrer"
             className="rounded-full bg-[#e8672e] px-[30px] py-[15px] text-base font-bold text-white transition hover:bg-[#d1541f]"
           >

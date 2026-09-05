@@ -12,6 +12,7 @@ import {
 } from "./Sections";
 import { LinkedInShowcase } from "./LinkedInShowcase";
 import { ProfileFooter } from "./ProfileFooter";
+import LearningPortal from "./LMSSection";
 
 import {
   BeyondCurriculumSection,
@@ -103,7 +104,7 @@ function JoinSection() {
         </button>
         <a
           href={joinUrl}
-          target="_blank"
+        //   target="_blank"
           rel="noreferrer"
           className="inline-flex rounded-full bg-[#e8672e] px-[30px] py-[15px] text-base font-bold text-white transition hover:bg-[#d1541f]"
         >
@@ -147,6 +148,7 @@ export default function HomePage() {
         <QuoteBand>
           Your degree ends at graduation. What you build never does.
         </QuoteBand>
+        <LearningPortal />
         <section id="job-tracks" className="px-0 py-[70px]">
           <div className={wrap}>
             <SectionIntro title="Everyone starts the same way. Then you choose your path.">

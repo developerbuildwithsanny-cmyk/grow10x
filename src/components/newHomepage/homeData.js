@@ -58,5 +58,5 @@ export const includedItems = [
   'No prior experience or knowledge needed',
 ];
 
-export const joinUrl = 'https://forms.gle/4wVJqgEHyTF5TTF56';
+export const joinUrl = '/requestcallback?source=Homepage - Join Community';
 export const reelUrl = 'https://www.instagram.com/reel/Db-zvMOyFLG/?utm_source=ig_web_copy_link';
