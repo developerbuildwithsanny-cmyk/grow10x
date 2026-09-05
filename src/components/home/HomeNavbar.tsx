@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Menu, X } from "lucide-react";
 import { useState } from "react";
-import { homeContact, homeNavLinks } from "@/components/home/homeContent";
+import { homeNavLinks } from "@/components/home/homeContent";
 import { open_sans } from "@/shared/styles/font";
 
 export function HomeNavbar() {
@@ -86,12 +86,12 @@ export function HomeNavbar() {
               </Link>
             ))}
           </nav>
-          <a
+          {/* <a
             href={homeContact.phoneHref}
             className="mt-4 block font-figtree text-sm font-bold text-black"
           >
             {homeContact.phoneLabel}
-          </a>
+          </a> */}
           <Link
             href="/requestcallback?source=Navbar - Join Community"
             className={`mt-3 flex items-center justify-center gap-[8.17px] border bg-Vivid_Tangelo text-white rounded-lg p-2 ${open_sans.className}`}
