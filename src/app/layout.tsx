@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "10xAISchool — Learn AI. Launch Fast. Earn Faster.",
   description:
     "Master practical AI development. Build real-world AI applications and launch your AI startup.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

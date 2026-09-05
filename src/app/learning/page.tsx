@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { HomeNavbar } from "@/components/home/HomeNavbar";
 import { LearningPageContent } from "@/components/LearningPageContent";
 import { Footer } from "@/components/Footer";
-import { HomeNavbar } from "@/components/home/HomeNavbar";
 
 export const metadata: Metadata = {
   title: "AI School Curriculum — 10xAISchool",
@@ -20,7 +19,7 @@ export default function LearningPage() {
       <main>
         <LearningPageContent />
       </main>
-      <HomeFooter />
+      {/* <HomeFooter /> */}
     </>
   );
 }

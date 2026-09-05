@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { HomeNavbar } from "@/components/home/HomeNavbar";
 import { InnovationsPageContent } from "@/components/InnovationsPageContent";
 import { Footer } from "@/components/Footer";
-import { HomeNavbar } from "@/components/home/HomeNavbar";
-
 export const metadata: Metadata = {
   title: "Student Innovations — 10xAISchool",
   description:
@@ -17,7 +15,7 @@ export default function InnovationsPage() {
       <main>
         <InnovationsPageContent />
       </main>
-      <HomeFooter />
+      {/* <HomeFooter /> */}
     </>
   );
 }

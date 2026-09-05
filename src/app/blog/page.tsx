@@ -17,7 +17,7 @@ export default function BlogPage() {
       <main>
         <BlogPageContent />
       </main>
-      <HomeFooter />
+      {/* <HomeFooter /> */}
     </>
   );
 }
