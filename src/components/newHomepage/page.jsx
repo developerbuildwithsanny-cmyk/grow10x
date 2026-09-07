@@ -37,7 +37,7 @@ function SectionIntro({ title, children, centered = false }) {
 
 function FounderNote() {
   return (
-    <div className="grid gap-12 md:grid-cols-[.9fr_1.1fr] md:gap-16">
+    <div className="grid gap-12 md:grid-cols-[.9fr_1.1fr] md:gap-14">
       <div>
         <h2 className="mb-5 text-[clamp(28px,4vw,40px)] font-extrabold leading-[1.2] tracking-[-0.02em]">
           Why this exists
@@ -47,29 +47,32 @@ function FounderNote() {
           kept seeing - talented students, held back not by ability, but by cost
           and access.
         </p>
+
+        <p className="mt-5 text-[17px] text-[#6e6252]">
+          For Full explaination, Watch 👇 this reel.
+        </p>
+        <ReelCard />
+      </div>
+      <div>
+        <p className="mb-5 text-[17px]">
+          College gives you a degree. Industry expects skills. But most students
+          graduate without knowing what to learn, which roles to apply for, or
+          how to build a career. <b>We are building the bridge</b>. Our goal is
+          simple: help students understand the industry, build the right skills,
+          and become career-ready before they graduate.
+        </p>
+        <p className="mb-10 text-[17px]">
+          <i>
+            From degree to direction. From learning to building.
+            <br />
+            This is why 10xAISchool exists.
+          </i>
+        </p>
         <p className="font-bold">
           Chaitanya
           <span className="mt-0.5 block text-sm font-medium text-[#6e6252]">
             AI Engineering and Agentic AI Trainer · Co-Founder, 10xAISchool
           </span>
-        </p>
-      </div>
-      <div>
-        <p className="mb-5 text-[17px]">
-          College gives you a degree. Industry expects skills.
-          But most students graduate without knowing what to learn, which roles to apply for, 
-          or how to build a career. <b>We are building the bridge</b>. Our goal is simple: help 
-          students understand the industry, build the right skills, and become career-ready before they graduate.
-
-
-        </p>
-        <p className="mb-5 text-[17px]">
-         <i>From degree to direction. From learning to building.
-        <br/>This is why 10xAISchool exists.
-         </i>
-        </p>
-        <p className="mb-5 text-[17px] text-[#6e6252]">
-         For Full explaination, Watch 👇 this reel.     
         </p>
       </div>
     </div>
@@ -97,14 +100,12 @@ function JoinSection() {
           <strong
             className={`text-[clamp(48px,8vw,84px)] leading-none tracking-[-0.03em] transition-[filter] duration-500 ${revealed ? "blur-0" : "blur-[18px]"}`}
           >
-            <sup className="text-[.32em] text-[#6e6252]">
-                
-                </sup> 
+            <sup className="text-[.32em] text-[#6e6252]"></sup>
           </strong>
         </button>
         <a
           href={joinUrl}
-        //   target="_blank"
+          //   target="_blank"
           rel="noreferrer"
           className="inline-flex rounded-full bg-[#e8672e] px-[30px] py-[15px] text-base font-bold text-white transition hover:bg-[#d1541f]"
         >
@@ -122,7 +123,7 @@ function ReelCard() {
       href={reelUrl}
       target="_blank"
       rel="noreferrer"
-      className="mx-auto mt-10 flex max-w-[580px] items-center gap-4 rounded-[22px] bg-[#1b1812] px-[22px] py-6 text-[#fbf5ea] transition hover:-translate-y-0.5 hover:bg-[#2b241c] md:mt-[52px] md:gap-[22px] md:px-8 md:py-7"
+      className="mx-auto mt-5 flex max-w-[580px] items-center gap-4 rounded-[22px] bg-[#1b1812] px-[22px] py-6 text-[#fbf5ea] transition hover:-translate-y-0.5 hover:bg-[#2b241c] md:mt-[20px] md:gap-[20px] md:px-8 md:py-7"
     >
       <span className="grid h-[50px] w-[50px] flex-none place-items-center rounded-full bg-[#e8672e] md:h-[60px] md:w-[60px]">
         ▶
@@ -167,12 +168,21 @@ export default function HomePage() {
         </QuoteBand>
         <section id="founder-track" className="bg-[#f2e6d0] px-0 py-[70px]">
           <div className={wrap}>
-            <SectionIntro title="Path two - Build your own thing">
-              Run this part-time, alongside everything else. It&apos;s a plain
-              framework for turning a real problem into a product people
-              actually pay for - no funding, no team, and no computer-science
-              degree required to start.
-            </SectionIntro>
+            <div
+              className={`mb-10 max-w-[640px]  }`}
+            >
+              <h2 className="mb-[18px] text-[clamp(30px,4vw,44px)] font-extrabold leading-[1.15] tracking-[-0.02em]">
+                Path Two - <span className="bg-[#e8672e] text-white px-2 py-1 rounded ">Founder Track</span>
+              </h2>
+              <p className="m-0 text-[18px] text-[#6e6252]">
+                {" "}
+                Run this part-time, alongside everything else. It&apos;s a plain
+                framework for turning a real problem into a product people
+                actually pay for - no funding, no team, and no computer-science
+                degree required to start.
+              </p>
+            </div>
+
             <FounderSection />
           </div>
         </section>
@@ -189,22 +199,15 @@ export default function HomePage() {
             <IncludedSection />
           </div>
         </section>
-        <section id="about" className="bg-[#f2e6d0] px-0 py-[100px]">
+        <section id="about" className="bg-[#f2e6d0] px-0 py-[60px]">
           <div className={wrap}>
             <FounderNote />
-            <ReelCard />
           </div>
         </section>
-       
-      
-
 
         <BeyondCurriculumSection />
         <AudienceSection />
         <LinkedInShowcase />
-
-
-         
         <FinalCtaSection />
       </main>
       <ProfileFooter />

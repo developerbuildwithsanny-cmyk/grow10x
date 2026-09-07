@@ -46,7 +46,7 @@ export function HeroSection() {
             ["4.5 months", "of hands-on, industry-style training"],
             ["+1 month", "real internship, not a certificate exercise"],
             ["2 paths", "job-ready or founder - you choose"],
-            ["0", "prior experience or knowledge required"],
+            ["No", "prior experience or knowledge required"],
           ].map(([value, label]) => (
             <div key={value} className="flex flex-col">
               <strong className="text-[32px] leading-tight tracking-[-0.02em]">
@@ -121,7 +121,7 @@ export function PathsDiagram() {
           textAnchor="middle"
           fill="#6e6252"
           fontFamily="Manrope, sans-serif"
-          fontSize="13.5"
+          fontSize="26.5"
           fontWeight="600"
         >
           Shared foundation
@@ -134,7 +134,7 @@ export function PathsDiagram() {
           textAnchor="middle"
           fill="#1b1812"
           fontFamily="Manrope, sans-serif"
-          fontSize="16"
+          fontSize="22.5"
           fontWeight="800"
         >
           Job-Ready
@@ -145,7 +145,7 @@ export function PathsDiagram() {
           textAnchor="middle"
           fill="#1b1812"
           fontFamily="Manrope, sans-serif"
-          fontSize="16"
+          fontSize="22.5"
           fontWeight="800"
         >
           Founder Track
@@ -158,13 +158,16 @@ export function PathsDiagram() {
 export function JobReadySection() {
   return (
     <div className="mb-0">
-      <div className="mb-9 flex flex-wrap items-baseline gap-3.5">
-        <h3 className="m-0 text-[26px] font-extrabold">Path one - Job-ready</h3>
-        <span className={`text-[15px] ${muted}`}>
-          for the student who wants to walk into a company already knowing how
+      <center><div className="mb-9 flex flex-col gap-2">
+        <h1 className="m-0 whitespace-nowrap text-[26px] md:text-[48px] font-extrabold leading-tight">
+          Path One - <span className="bg-[#e8672e] text-white px-2 py-1 rounded">Job-Ready</span>
+        </h1>
+        <span className={`block text-[15px] leading-6 ${muted}`}>
+          For the student who wants to walk into a company already knowing how
           one runs
         </span>
       </div>
+      </center>
       <div className="ml-2 border-l-2 border-[#e4d6bb]">
         {jobReadyMilestones.map(([title, body]) => (
           <div
