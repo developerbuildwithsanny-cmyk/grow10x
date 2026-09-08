@@ -9,6 +9,7 @@ export default function Home() {
       <main>
         <HomePage />
       </main>
+      
       {/* <HomeFooter /> */}
     </div>
   );
