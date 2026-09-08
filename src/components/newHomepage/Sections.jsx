@@ -13,8 +13,8 @@ export function HeroSection() {
   return (
     <section className="px-0 pb-[72px] pt-14">
       <div className={wrap}>
-        <p className="mb-[13px] inline-block rounded-full bg-[#e8672e] px-5 py-[9px] text-[14.5px] font-extrabold text-white">
-          Not an institute. A bridge, built for the AI era.
+        <p className="mb-[13px] inline-block rounded-full bg-[#e8672e] px-3 md:px-5 py-[4px] md:py-[9px] text-[14.5px] font-extrabold text-white">
+          Not an institute. A bridge, built for the AI era
         </p>
         <h1 className="mb-[13px] max-w-[920px] text-[clamp(38px,6vw,68px)] font-extrabold leading-[1.06] tracking-[-0.025em]">
           Build Your Brand.{" "}

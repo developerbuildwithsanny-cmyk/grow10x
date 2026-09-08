@@ -171,9 +171,9 @@ export default function HomePage() {
             <div
               className={`mb-10 max-w-[640px]  }`}
             >
-              <h2 className="mb-[18px] text-[clamp(30px,4vw,44px)] font-extrabold leading-[1.15] tracking-[-0.02em]">
+              <h4 className="mb-[18px] text-[clamp(25px,3vw,42px)] font-extrabold leading-[1.15] tracking-[-0.02em]">
                 Path Two - <span className="bg-[#e8672e] text-white px-2 py-1 rounded ">Founder Track</span>
-              </h2>
+              </h4>
               <p className="m-0 text-[18px] text-[#6e6252]">
                 {" "}
                 Run this part-time, alongside everything else. It&apos;s a plain

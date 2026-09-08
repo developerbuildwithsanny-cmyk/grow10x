@@ -8,13 +8,13 @@ import {
   Phone, 
   GraduationCap, 
   MessageSquare, 
-  Check, 
   Loader2,
   ArrowRight
 } from "lucide-react";
 import { submitLead } from "@/app/actions";
 import { cn } from "@/lib/utils";
 import { HomeNavbar } from "@/components/home/HomeNavbar";
+import BookingSuccess from "./BookingSuccess";
 
 
 function CallbackForm() {
@@ -106,19 +106,7 @@ function CallbackForm() {
   };
 
   if (status === "success") {
-    return (
-      <div className="flex flex-col items-center justify-center text-center py-12 animate-in fade-in slide-in-from-bottom-4 duration-300">
-          <div className="flex h-16 w-16 items-center justify-center rounded-full border border-[#e8672e]/30 bg-[#e8672e]/10 text-[#e8672e] shadow-[0_0_20px_rgba(232,103,46,0.18)]">
-          <Check className="h-8 w-8 stroke-[3]" />
-        </div>
-        <h3 className="mt-6 font-heading text-2xl font-black text-[#1b1812]">
-           Slot Booked Successfully!
-        </h3>
-        <p className="mt-3 max-w-sm text-sm text-[#6e6252]">
-          Thank you for reaching out. One of our team will call or WhatsApp you within the next 24 hours.
-        </p>
-      </div>
-    );
+    return <BookingSuccess />;
   }
 
   return (
