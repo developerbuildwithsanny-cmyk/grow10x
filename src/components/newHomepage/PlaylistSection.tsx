@@ -168,11 +168,21 @@ export default function PlaylistSection() {
               <span className="ps-heading-accent">Real Learning.</span>
             </h2>
           </div>
-          <p className="ps-hero-subtext">
-            These are actual recorded sessions from the 10xAISchool program,
-            not demos, not highlights. See exactly what learning looks like
-            inside the system before you commit.
-          </p>
+          <div className="ps-subtext-row">
+            <p className="ps-hero-subtext">
+              These are actual recorded sessions from the 10xAISchool program,
+              not demos, not highlights. See exactly what learning looks like
+              inside the system before you commit.
+            </p>
+            <a
+              href={`https://www.youtube.com/playlist?list=${PLAYLIST_ID}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ps-explore-btn"
+            >
+              View full playlist ↗
+            </a>
+          </div>
         </div>
 
         {/* Body */}
@@ -185,17 +195,6 @@ export default function PlaylistSection() {
 
           {/* Right: scrollable sidebar */}
           <div className="ps-side-wrapper">
-            <div className="ps-side-header">
-              <span className="ps-side-header-title">MORE SESSIONS</span>
-              <a
-                href={`https://www.youtube.com/playlist?list=${PLAYLIST_ID}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="ps-explore-btn"
-              >
-                View full playlist ↗
-              </a>
-            </div>
             <div className="ps-side-col" ref={sideRef}>
               {sideVideos.map((video) => (
                 <SideCard key={video.id} video={video} />
@@ -243,7 +242,7 @@ export default function PlaylistSection() {
           align-items: center;
           justify-content: center;
           text-align: center;
-          gap: 14px;
+          gap: 16px;
         }
 
         .ps-topbar-left {
@@ -281,32 +280,34 @@ export default function PlaylistSection() {
           background-clip: text;
         }
 
-        .ps-side-header {
+        .ps-subtext-row {
           display: flex;
           align-items: center;
           justify-content: space-between;
-          margin-bottom: 10px;
-          gap: 12px;
+          gap: 20px;
+          width: 100%;
+          margin-top: 4px;
         }
 
-        .ps-side-header-title {
-          font-size: 11px;
-          font-weight: 700;
-          letter-spacing: 0.14em;
-          text-transform: uppercase;
-          color: #777;
+        .ps-hero-subtext {
+          font-size: 14px;
+          color: #555;
+          line-height: 1.6;
+          margin: 0;
+          max-width: 720px;
+          text-align: left;
         }
 
         .ps-explore-btn {
           display: inline-flex;
           align-items: center;
           gap: 6px;
-          font-size: 12px;
+          font-size: 12.5px;
           font-weight: 600;
           color: #111;
           text-decoration: none;
           border: 1.5px solid #111;
-          padding: 6px 14px;
+          padding: 8px 18px;
           border-radius: 6px;
           white-space: nowrap;
           flex-shrink: 0;
@@ -588,6 +589,13 @@ export default function PlaylistSection() {
         @media (max-width: 900px) {
           .ps-body { grid-template-columns: 1fr; }
           .ps-side-col { max-height: 340px; }
+          .ps-subtext-row {
+            flex-direction: column;
+            text-align: center;
+          }
+          .ps-hero-subtext {
+            text-align: center;
+          }
         }
 
         @media (max-width: 540px) {
