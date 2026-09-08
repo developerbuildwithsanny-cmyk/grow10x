@@ -19,6 +19,8 @@ import {
   AudienceSection,
   FinalCtaSection,
 } from "@/components/home/landing";
+import VideoStorySection from "./VideoStorySection"
+import PlaylistSection from "./PlaylistSection"
 
 const wrap = "mx-auto w-full max-w-[1120px] px-6 md:px-8";
 
@@ -204,6 +206,9 @@ export default function HomePage() {
             <FounderNote />
           </div>
         </section>
+
+        <VideoStorySection />
+        <PlaylistSection />
 
         <BeyondCurriculumSection />
         <AudienceSection />

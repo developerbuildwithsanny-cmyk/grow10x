@@ -1,0 +1,75 @@
+{
+  "playlistId": "PLteFojtUYuJMf8QXXQ_02ozA8y-Yp7gIs",
+  "sessions": [
+    {
+      "id": "nKf-pwCHFm8",
+      "index": 24,
+      "label": "Session 24",
+      "title": "Is ChatGPT an LLM? | Are ChatGPT & Gemini Really LLMs? Explained Simply",
+      "date": "2024-01-15"
+    },
+    {
+      "id": "wFuRU-8YMqM",
+      "index": 25,
+      "label": "Session 25",
+      "title": "LLM Evaluation Explained | How to Measure AI Models Like ChatGPT & Gemini",
+      "date": "2024-01-22"
+    },
+    {
+      "id": "MOLEw28mKGY",
+      "index": 26,
+      "label": "Session 26",
+      "title": "How LLMs Actually Work | ChatGPT & Gemini Explained from Scratch",
+      "date": "2024-01-29"
+    },
+    {
+      "id": "kv5b0d_x1As",
+      "index": 27,
+      "label": "Session 27",
+      "title": "Everything About LLM Tokens, Prompting & Knowledge Cutoff in One Video",
+      "date": "2024-02-05"
+    },
+    {
+      "id": "d40NVi35ND4",
+      "index": 28,
+      "label": "Session 28",
+      "title": "Prompt Engineering Tutorial for Beginners | Part 1 | Write Better AI Prompts",
+      "date": "2024-02-12"
+    },
+    {
+      "id": "UQDvwIiU5z8",
+      "index": 33,
+      "label": "Session 33",
+      "title": "LLMs – How They Call APIs Using the Python Requests Module | Complete Beginner Guide",
+      "date": "2024-03-18"
+    },
+    {
+      "id": "gZbzpSC634c",
+      "index": 34,
+      "label": "Session 34",
+      "title": "Mini Project 1: Build an LLM Weather Suggestion App in Python | OpenAI + Weather API",
+      "date": "2024-03-25"
+    },
+    {
+      "id": "K5BrXIbLgY8",
+      "index": 35,
+      "label": "Session 35",
+      "title": "Run LLMs Offline on Your Laptop",
+      "date": "2024-04-01"
+    },
+    {
+      "id": "bVeW56rg7A0",
+      "index": 36,
+      "label": "Session 36",
+      "title": "Run LLMs Offline (Part 2) - api way",
+      "date": "2024-04-08"
+    },
+    {
+      "id": "0Ptw7juGd40",
+      "index": 37,
+      "label": "Session 37",
+      "title": "Prompt Engineering Part 2 | Temperature, Top-P & Top-K Explained Simply",
+      "date": "2024-04-15"
+    }
+  ]
+}
