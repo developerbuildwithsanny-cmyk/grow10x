@@ -48,7 +48,7 @@ export const founderSteps = [
 ];
 
 export const includedItems = [
-  'Full job-ready or founder track, your choice',
+  'Full job-ready and founder track, your choice',
   'Daily live classes with doubt support',
   '1-month real internship',
   'Resume, LinkedIn and interview prep',
