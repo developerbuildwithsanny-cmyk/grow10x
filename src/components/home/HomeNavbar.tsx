@@ -38,18 +38,55 @@ export function HomeNavbar() {
           />
         </Link>
 
-        <nav className="hidden items-center gap-4 xl:gap-6 lg:flex">
-          {homeNavLinks.map((link, index) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={`font-figtree text-[14px] font-semibold ${index === 0 ? "text-black" : "text-nav-muted"
-                }`}
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
+     <nav className="hidden items-center gap-4 xl:gap-6 lg:flex">
+  {homeNavLinks.map((link, index) => (
+    <Link
+      key={link.href}
+      href={link.href}
+      className={`font-figtree text-[14px] font-semibold ${
+        index === 0 ? "text-black" : "text-nav-muted"
+      }`}
+    >
+      {link.label === "Jobs" ? (
+        <span
+          className="jobs-pill relative inline-flex overflow-hidden rounded-full p-[3px]"
+          style={{ isolation: "isolate" }}
+        >
+          {/* Static base ring */}
+          <span className="absolute inset-0 rounded-full border border-[#F97316]/25" />
+
+          {/* Soft ambient glow */}
+          <span className="absolute inset-0 rounded-full bg-[#F97316]/10 blur-[3px]" />
+
+          {/* Spin 1 */}
+          <span
+            className="jobs-spin-one absolute inset-[-40%] rounded-full"
+            style={{
+              background:
+                "conic-gradient(from 0deg, transparent 0%, transparent 68%, rgba(249,115,22,0.35) 80%, #F97316 92%, rgba(249,115,22,0.35) 100%)",
+            }}
+          />
+
+          {/* Spin 2 */}
+          <span
+            className="jobs-spin-two absolute inset-[-40%] rounded-full"
+            style={{
+              background:
+                "conic-gradient(from 180deg, transparent 0%, transparent 68%, rgba(249,115,22,0.35) 80%, #F97316 92%, rgba(249,115,22,0.35) 100%)",
+            }}
+          />
+
+          {/* Jobs text */}
+          <span className="relative z-10 rounded-full bg-white px-3.5 py-1.5 text-nav-muted">
+            Jobs
+          </span>
+        </span>
+      ) : (
+        link.label
+      )}
+    </Link>
+  ))}
+</nav>
 
         {/* Desktop View Apply Now button */}
         <div className="hidden items-center gap-4 md:flex">
@@ -78,11 +115,17 @@ export function HomeNavbar() {
             {homeNavLinks.map((link) => (
               <Link
                 key={link.href}
-                href={link.href}
-                className="font-figtree text-[14px] font-semibold text-black"
+                  href={link.href}
+                  className={`font-figtree text-[14px] font-semibold text-black ${link.label === "Jobs" ? "inline-flex items-center gap-0" : ""}`}
                 onClick={() => setOpen(false)}
               >
-                {link.label}
+                {link.label === "Jobs" ? (
+                  <span className="inline-flex items-center rounded-full border border-[#F97316] px-2 py-0.5">
+                    {link.label}
+                  </span>
+                ) : (
+                  link.label
+                )}
               </Link>
             ))}
           </nav>
