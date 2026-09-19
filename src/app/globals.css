@@ -200,3 +200,36 @@ body {
 .apply-now-btn:active {
   transform: scale(0.97);
 }
+/* Jobs navbar animation */
+
+@keyframes jobs-spin-one {
+  from {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0) rotate(360deg);
+  }
+}
+
+@keyframes jobs-spin-two {
+  from {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0) rotate(360deg);
+  }
+}
+
+.jobs-spin-one {
+  animation: jobs-spin-one 5s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.jobs-spin-two {
+  animation: jobs-spin-two 5s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+}

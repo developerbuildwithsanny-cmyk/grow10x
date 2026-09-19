@@ -5,6 +5,8 @@ export const homeNavLinks = [
   { label: "The System", href: "/#job-tracks" }, // Get a Jobs
   { label: "Build a business", href: "/#founder-track" },
   { label:"Why this exists", href: "/#about"},
+  { label: "Jobs", href: "http://localhost:3001/jobs" },
+  //{ label: "Jobs", href: process.env.NEXT_PUBLIC_JOBS_URL },
   // { label: "AI School", href: "/learning" },
   // { label: "Innovations", href: "/innovations" },
   // { label: "AI Tools", href: "/tools" },
